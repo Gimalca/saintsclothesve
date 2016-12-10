@@ -1,0 +1,4433 @@
+<modification>
+	<id><![CDATA[mod]]></id>
+	<version><![CDATA[1.1]]></version>
+	<vqmver><![CDATA[2.1.7]]></vqmver>
+	<author><![CDATA[OC2PS]]></author>
+	<!--LANGUAGE arabic START-->	
+<!--account START-->	
+	<!--wishlist START-->
+	<file name="catalog/language/arabic/account/wishlist.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['column_action'] = 'تحرير';]]></search>
+			<add><![CDATA[$_['text_add_to_cart'] = 'إضافة إلى السلة';
+						  $_[ 'text_product' ] = 'نتاج';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	<!--wishlist END-->
+	
+	<!--address START-->
+	<file name="catalog/language/arabic/account/address.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_default']     = 'العنوان الافتراضي:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* الحقول المطلوبة';]]>
+			</add>
+		</operation>
+	</file>
+	<!--address END-->
+	
+	<!--edit START-->
+	<file name="catalog/language/arabic/account/edit.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_fax']           = 'الفاكس:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* الحقول المطلوبة';]]>
+			</add>
+		</operation>
+	</file>
+	<!--edit END-->
+	
+	<!--order START-->
+	<file name="catalog/language/arabic/account/order.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['column_comment']        = 'ملاحظات';]]></search>
+			<add><![CDATA[$_[ 'text_item_ordered' ] = 'المواد المطلوبة';
+						  $_[ 'text_view_order' ] = 'عرض ترتيب';
+						  $_[ 'text_reorder' ] = 'إعادة ترتيب';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	<!--order END-->
+	
+	<!--login START-->
+	<file name="catalog/language/arabic/account/login.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_password']               = 'كلمة المرور:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* الحقول المطلوبة';]]>
+			</add>
+		</operation>
+	</file>
+	<!--login END-->
+	
+	<!--register START-->
+	<file name="catalog/language/arabic/account/register.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_confirm']        = 'تأكيد كلمة المرور:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* الحقول المطلوبة';]]>
+			</add>
+		</operation>
+	</file>
+	<!--register END-->
+	
+	<!--password START-->
+	<file name="catalog/language/arabic/account/password.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_confirm']  = 'تأكيد كلمة المرور الجديدة:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* الحقول المطلوبة';]]>
+			</add>
+		</operation>
+	</file>
+		
+	
+	<!--password END-->
+	
+	<!--return START-->
+	<file name="catalog/language/arabic/account/return.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['column_status']      = 'الحالة';]]></search>
+			<add><![CDATA[$_[ 'text_view' ] = 'رأي';
+						  $_[ 'text_product' ] = 'نتاج';
+						  $_[ 'text_enter_your_captch' ] = 'أدخل كلمة التحقق الخاصة بك';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--return END-->
+	
+<!--account END-->	
+<!--affiliate START-->	
+	<!--payment START-->
+	<file name="catalog/language/arabic/affiliate/payment.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']             = 'طريقة الدفع';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* الحقول المطلوبة';]]>
+			</add>
+		</operation>
+	</file>
+	
+	
+	<!--payment END-->
+	
+	<!--tracking START-->
+	<file name="catalog/language/arabic/affiliate/tracking.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']    = 'تتبع أفليت';]]></search>
+			<add><![CDATA[$_[ 'text_tracking_code' ] = 'شفرة التتبع الخاصة:';
+						  $_[ 'text_tracking_link' ] = 'تعقب الارتباط:';
+						  $_[ 'text_tracking_link_generator' ] = 'تعقب الارتباط مولد:';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	<!--tracking END-->
+	<!--edit START-->
+	<file name="catalog/language/arabic/affiliate/edit.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'معلومات حسابي';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* الحقول المطلوبة';]]>
+			</add>
+		</operation>
+	</file>
+	<!--edit END-->
+	
+	<!--password START-->
+	<file name="catalog/language/arabic/affiliate/password.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']  = 'تغيير كلمة المرور';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* الحقول المطلوبة';]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--password END-->
+	
+	<!--login START-->
+	<file name="catalog/language/arabic/affiliate/login.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']                 = 'برنامج أفليت';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* الحقول المطلوبة';]]>
+			</add>
+		</operation>
+	</file>
+	<!--login END-->
+	
+<!--affiliate END-->
+
+<!--checkout START-->
+	<!--confirm  checkout START-->
+	<file name="catalog/language/arabic/checkout/checkout.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']                  = 'إنهاء الطلب';]]></search>
+			<add><![CDATA[$_[ 'text_product' ] = 'نتاج';
+						  $_[ 'text_newslatter' ] = 'النشرة الإخبارية';
+						  $_[ 'text_required_fields' ] = '* الحقول المطلوبة';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--confirm checkout END-->
+	
+<!--checkout END-->
+
+<!--Common START-->
+	<!--header START-->
+	<file name="catalog/language/arabic/arabic.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['code']                  = 'ar';]]></search>
+			<add><![CDATA[$_[ 'text_home_latest' ] = 'آخر';
+						  $_[ 'text_home_feature' ] = 'متميز';
+						  $_[ 'text_home_special' ] = 'العروض الخاصة';
+						  $_[ 'text_home_about_vigo_shop' ] = 'حول فيغو شوب';
+						  $_[ 'text_home_our_history' ] = 'لدينا التاريخ';
+						  $_[ 'text_home_read_more' ] = 'المزيد';
+						  $_[ 'text_home_our_team' ] = 'لدينا فريق';
+						  $_['text_from_the_staff']  = 'من الموظفين';
+						  $_['text_read_more']  = 'اقرأ المزيد';
+						  $_['text_sorry_no_slider']  = 'عذرا، لا المنزلق.';
+						  $_['text_home_newslatter']  = 'النشرة الإخبارية';
+						  $_['text_home_sign_up_desc']  = 'الاشتراك للحصول على العروض الحصرية من العلامات التجارية المفضلة لديك.';
+						  $_['text_home_sign_up']  = 'اشترك';
+						  $_['text_home_enter_your_email_address']  = 'ادخل عنوان البريد الإلكتروني الخاص بك';
+			]]>
+			</add>
+		</operation>
+	</file>
+	
+	<file name="catalog/language/arabic/common/header.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_checkout']           = 'إنهاء الطلب';]]></search>
+			<add><![CDATA[$_[ 'text_header_menu' ] = 'قائمة الطعام';
+						 
+						  $_[ 'text_header_close' ] = 'قريب';
+						  $_[ 'text_header_menu' ] = 'قائمة الطعام';
+						  $_['text_search']         = 'البحث هنا';
+						  $_[ 'text_compare' ] = 'مقارنة';
+						  $_['text_blogs']           = 'بلوق';
+						  
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	
+	<!--header END-->
+	<!--footer START-->
+		<file name="catalog/language/arabic/common/footer.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_newsletter']   = 'القائمة البريدية';]]></search>
+			<add><![CDATA[$_[ 'text_footer_most_favorite' ] = 'معظم المفضلة';
+						  $_[ 'text_footer_quick_contact' ] = 'الاتصال السريع';
+						  $_[ 'text_footer_enter_your_name' ] = 'ادخل اسمك';
+						  $_[ 'text_footer_enter_your_email' ] = 'أدخل بريدك الإلكتروني';
+						  $_[ 'text_footer_enter_your_telephone' ] = 'دخول الهاتف الخاص بك';
+						  $_[ 'text_footer_enter_your_message' ] = 'أدخل رسالتك';
+						  $_[ 'text_footer_send_message' ] = 'إرسال رسالة';
+						  $_[ 'text_footer_facebook' ] = 'Facebook';
+						  $_[ 'text_footer_twitter' ] = 'Twitter';
+						  $_[ 'text_footer_rss' ] = 'RSS';
+						  $_[ 'text_footer_delicious' ] = 'Delicious';
+						  $_[ 'text_footer_linkedin' ] = 'Linkedin';
+						  $_[ 'text_footer_flickr' ] = 'Flickr';
+						  $_[ 'text_footer_skype' ] = 'Skype';
+						  $_[ 'text_footer_mail_to' ] = 'Mail to';
+						  $_['text_reward']        = 'نقاط المكافأة'; 
+						  $_['text_transaction'] = 'المعاملات';
+						  $_['text_contactinfo']   = 'معلومات الاتصال';
+						  $_['text_downloads'] = 'التنزيلات';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--footer END-->
+<!--Common END-->
+
+<!--product START-->
+	<!--compare START-->
+	<file name="catalog/language/arabic/product/compare.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'مقارنة المنتجات';]]></search>
+			<add><![CDATA[$_[ 'text_regular_price' ] = 'الأسعار العادية:';
+						  $_[ 'text_special_price' ] = 'سعر خاص::';]]>
+			</add>
+		</operation>
+	</file>
+		
+	
+	<!--compare END-->
+	
+	<!--manufacturer START-->
+	<file name="catalog/language/arabic/product/manufacturer.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'ابحث عن الشركة المفضلة لك';]]></search>
+			<add><![CDATA[$_[ 'text_price_filter' ] = 'مرشح السعر: ';
+						  $_[ 'text_regular_price' ] = 'الأسعار العادية:';
+						  $_[ 'text_special_price' ] = 'سعر خاص:';]]>
+			</add>
+		</operation>
+	</file>
+		
+
+	<!--manufacturer END-->
+	
+	<!--category START-->
+	<file name="catalog/language/arabic/product/category.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_refine']       = 'الأقسام الفرعية';]]></search>
+			<add><![CDATA[$_[ 'text_price_filter' ] = 'مرشح السعر: ';
+						  $_[ 'text_regular_price' ] = 'الأسعار العادية:';
+						  $_[ 'text_special_price' ] = 'سعر خاص:';]]>
+			</add>
+		</operation>
+	</file>
+		
+
+	<!--category END-->
+	
+	<!--isitestimonial START-->
+	<file name="catalog/language/arabic/product/isitestimonial.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']  	= 'نموذج شهادة';]]></search>
+			<add><![CDATA[$_[ 'text_enter_your_name' ] = 'ادخل اسمك';
+						  $_[ 'text_enter_your_email' ] = 'أدخل بريدك الإلكتروني';
+						  $_[ 'text_enter_your_city' ] = 'دخول مدينتك';
+						  $_[ 'text_enter_your_captch' ] = 'أدخل كلمة التحقق الخاصة بك';
+						  $_[ 'text_enter_your_subject' ] = 'أدخل الموضوع الخاص بك';
+						  $_[ 'text_enter_your_message' ] = 'اكتب رسالتك';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+
+	<!--isitestimonial END-->
+	
+	<!--search START-->
+	<file name="catalog/language/arabic/product/search.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'بحث';]]></search>
+			<add><![CDATA[$_[ 'text_price_filter' ] = 'Price filter: ';
+						  $_[ 'text_regular_price' ] = 'Regular Price:';
+						  $_[ 'text_special_price' ] = 'سعر خاص:';]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--search END-->
+	
+	<!--product START-->
+	<file name="catalog/language/arabic/product/product.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_search']         = 'بحث';]]></search>
+			<add><![CDATA[$_[ 'text_rating_links' ] = 'تصنيف الروابط';
+						  $_[ 'text_add_to_cart' ] = 'إضافة إلى العربة';
+						  $_[ 'text_add_review' ] = 'إضافة تعليق';]]>
+			</add>
+		</operation>
+	</file>
+		
+	
+	<!--product END-->
+<!--product END-->
+<!--LANGUAGE arabic END-->
+
+<!--LANGUAGE chinese START-->	
+<!--account START-->	
+	<!--wishlist START-->
+	<file name="catalog/language/chinese/account/wishlist.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['column_action'] = '管理';]]></search>
+			<add><![CDATA[$_['text_add_to_cart'] = '添加到购物车';
+						  $_[ 'text_product' ] = '产品';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	<!--wishlist END-->
+	
+	<!--address START-->
+	<file name="catalog/language/chinese/account/address.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_default']     = '&nbsp;&nbsp;&nbsp;默认地址：';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* 必填字段';]]>
+			</add>
+		</operation>
+	</file>
+	<!--address END-->
+	
+	<!--edit START-->
+	<file name="catalog/language/chinese/account/edit.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_fax']           = '&nbsp;&nbsp;&nbsp;传真号码：';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* 必填字段';]]>
+			</add>
+		</operation>
+	</file>
+	<!--edit END-->
+	
+	<!--order START-->
+	<file name="catalog/language/chinese/account/order.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['column_comment']        = '备注';]]></search>
+			<add><![CDATA[$_[ 'text_item_ordered' ] = '项目有序';
+						  $_[ 'text_view_order' ] = '检视订单';
+						  $_[ 'text_reorder' ] = '重新排序';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	<!--order END-->
+	
+	<!--login START-->
+	<file name="catalog/language/chinese/account/login.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_password']               = '密码：';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* 必填字段';]]>
+			</add>
+		</operation>
+	</file>
+	<!--login END-->
+	
+	<!--register START-->
+	<file name="catalog/language/chinese/account/register.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_confirm']        = '确认密码：';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* 必填字段';]]>
+			</add>
+		</operation>
+	</file>
+	<!--register END-->
+	
+	<!--password START-->
+	<file name="catalog/language/chinese/account/password.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_confirm']  = '确认密码：';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* 必填字段';]]>
+			</add>
+		</operation>
+	</file>
+		
+	
+	<!--password END-->
+	
+	<!--return START-->
+	<file name="catalog/language/chinese/account/return.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['column_status']      = '状态';]]></search>
+			<add><![CDATA[$_[ 'text_view' ] = '视图';
+						  $_[ 'text_product' ] = '产品';
+						  $_[ 'text_enter_your_captch' ] = '输入您的验证码';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--return END-->
+	
+<!--account END-->	
+<!--affiliate START-->	
+	<!--payment START-->
+	<file name="catalog/language/chinese/affiliate/payment.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']             = '支付方式';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* 必填字段';]]>
+			</add>
+		</operation>
+	</file>
+	
+	
+	<!--payment END-->
+	
+	<!--tracking START-->
+	<file name="catalog/language/chinese/affiliate/tracking.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']    = '加盟跟踪';]]></search>
+			<add><![CDATA[$_[ 'text_tracking_code' ] = '您的跟踪代码:';
+						  $_[ 'text_tracking_link' ] = '追踪连结:';
+						  $_[ 'text_tracking_link_generator' ] = '跟踪链路发生器:';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	<!--tracking END-->
+	<!--edit START-->
+	<file name="catalog/language/chinese/affiliate/edit.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = '我的账户';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* 必填字段';]]>
+			</add>
+		</operation>
+	</file>
+	<!--edit END-->
+	
+	<!--password START-->
+	<file name="catalog/language/chinese/affiliate/password.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']  = '更改密码';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* 必填字段';]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--password END-->
+	
+	<!--login START-->
+	<file name="catalog/language/chinese/affiliate/login.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']                 = '加盟用户登录';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* 必填字段';]]>
+			</add>
+		</operation>
+	</file>
+	<!--login END-->
+	
+<!--affiliate END-->
+
+<!--checkout START-->
+	<!--confirm  checkout START-->
+	<file name="catalog/language/chinese/checkout/checkout.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']                  = '结账';]]></search>
+			<add><![CDATA[$_[ 'text_product' ] = '产品';
+						  $_[ 'text_newslatter' ] = '通讯';
+						  $_[ 'text_required_fields' ] = '* 必填字段';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--confirm checkout END-->
+	
+<!--checkout END-->
+
+<!--Common START-->
+	<!--header START-->
+	<file name="catalog/language/chinese/chinese.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['code']                  = 'cn';]]></search>
+			<add><![CDATA[$_[ 'text_home_latest' ] = '最新';
+						  $_[ 'text_home_feature' ] = '特色';
+						  $_[ 'text_home_special' ] = '特价';
+						  $_[ 'text_home_about_vigo_shop' ] = '关于维戈店';
+						  $_[ 'text_home_our_history' ] = '我们的历史';
+						  $_[ 'text_home_read_more' ] = '阅读更多';
+						  $_[ 'text_home_our_team' ] = '我们的团队';
+						  $_['text_from_the_staff']  = '从工作人员';
+						  $_['text_read_more']  = '阅读全文';
+						  $_['text_sorry_no_slider']  = '抱歉，没有滑块。';
+						  $_['text_home_newslatter']  = '通讯';
+						  $_['text_home_sign_up_desc']  = '注册以获取独家优惠从您最喜爱的品牌。';
+						  $_['text_home_sign_up']  = '报名';
+						  $_['text_home_enter_your_email_address']  = '请输入您的电子邮件地址';
+			]]>
+			</add>
+		</operation>
+	</file>
+	
+	<file name="catalog/language/chinese/common/header.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_checkout'] 		= '去结账';]]></search>
+			<add><![CDATA[$_[ 'text_header_menu' ] = '菜单';
+						 
+						  $_[ 'text_header_close' ] = '关闭';
+						  $_[ 'text_header_menu' ] = '菜单';
+						  $_['text_search']         = '在这里搜索';
+			      		  $_[ 'text_compare' ] = '比较';
+						  $_['text_blogs']           = '博客';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	
+	<!--header END-->
+	<!--footer START-->
+		<file name="catalog/language/chinese/common/footer.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_newsletter']   = '订阅咨询';]]></search>
+			<add><![CDATA[$_[ 'text_footer_most_favorite' ] = '最喜欢的';
+						  $_[ 'text_footer_quick_contact' ] = '快速联系';
+						  $_[ 'text_footer_enter_your_name' ] = '输入你的名字';
+						  $_[ 'text_footer_enter_your_email' ] = '输入您的电子邮件地址';
+						  $_[ 'text_footer_enter_your_telephone' ] = '输入您的电话';
+						  $_[ 'text_footer_enter_your_message' ] = '输入您的消息';
+						  $_[ 'text_footer_send_message' ] = '送信';
+						  $_[ 'text_footer_facebook' ] = 'Facebook';
+						  $_[ 'text_footer_twitter' ] = 'Twitter';
+						  $_[ 'text_footer_rss' ] = 'RSS';
+						  $_[ 'text_footer_delicious' ] = 'Delicious';
+						  $_[ 'text_footer_linkedin' ] = 'Linkedin';
+						  $_[ 'text_footer_flickr' ] = 'Flickr';
+						  $_[ 'text_footer_skype' ] = 'Skype';
+						  $_[ 'text_footer_mail_to' ] = 'Mail to';
+						  $_['text_reward']        = '奖励积分'; 
+						$_['text_transaction'] = '交易';
+						$_['text_contactinfo']   = '联系方式';
+						$_['text_downloads'] = '下载';
+						  
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--footer END-->
+<!--Common END-->
+
+<!--product START-->
+	<!--compare START-->
+	<file name="catalog/language/chinese/product/compare.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = '商品对比';]]></search>
+			<add><![CDATA[$_[ 'text_regular_price' ] = '原价:';
+						  $_[ 'text_special_price' ] = '特价::';]]>
+			</add>
+		</operation>
+	</file>
+		
+	
+	<!--compare END-->
+	
+	<!--manufacturer START-->
+	<file name="catalog/language/chinese/product/manufacturer.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = '查看您喜爱的品牌';]]></search>
+			<add><![CDATA[$_[ 'text_price_filter' ] = '价格过滤: ';
+						  $_[ 'text_regular_price' ] = '原价:';
+						  $_[ 'text_special_price' ] = '特价:';]]>
+			</add>
+		</operation>
+	</file>
+		
+
+	<!--manufacturer END-->
+	
+	<!--category START-->
+	<file name="catalog/language/chinese/product/category.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_refine']       = '高级搜索';]]></search>
+			<add><![CDATA[$_[ 'text_price_filter' ] = '价格过滤: ';
+						  $_[ 'text_regular_price' ] = '原价:';
+						  $_[ 'text_special_price' ] = '特价:';]]>
+			</add>
+		</operation>
+	</file>
+		
+
+	<!--category END-->
+	
+	<!--isitestimonial START-->
+	<file name="catalog/language/chinese/product/isitestimonial.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']  	= '证明表格';]]></search>
+			<add><![CDATA[$_[ 'text_enter_your_name' ] = '输入你的名字';
+						  $_[ 'text_enter_your_email' ] = '输入您的电子邮件地址';
+						  $_[ 'text_enter_your_city' ] = 'Enter Your city';
+						  $_[ 'text_enter_your_captch' ] = '输入您的验证码';
+						  $_[ 'text_enter_your_subject' ] = '输入您的主题';
+						  $_[ 'text_enter_your_message' ] = '请输入您的留言';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+
+	<!--isitestimonial END-->
+	
+	<!--search START-->
+	<file name="catalog/language/chinese/product/search.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = '搜索';]]></search>
+			<add><![CDATA[$_[ 'text_price_filter' ] = '价格过滤: ';
+						  $_[ 'text_regular_price' ] = '原价:';
+						  $_[ 'text_special_price' ] = '特价:';]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--search END-->
+	
+	<!--product START-->
+	<file name="catalog/language/chinese/product/product.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_search']         = '搜索';]]></search>
+			<add><![CDATA[$_[ 'text_rating_links' ] = 'rating-links';
+						  $_[ 'text_add_to_cart' ] = '添加到购物车';
+						  $_[ 'text_add_review' ] = '添加评论';]]>
+			</add>
+		</operation>
+	</file>
+		
+	
+	<!--product END-->
+<!--product END-->
+<!--LANGUAGE chinese END-->
+
+<!--LANGUAGE dutch START-->	
+<!--account START-->	
+	<!--wishlist START-->
+	<file name="catalog/language/dutch/account/wishlist.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['column_action'] = 'Aktie';]]></search>
+			<add><![CDATA[$_['text_add_to_cart'] = 'In winkelwagen';
+						  $_[ 'text_product' ] = 'product';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	<!--wishlist END-->
+	
+	<!--address START-->
+	<file name="catalog/language/dutch/account/address.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_default']     = 'Standaardadres:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Verplichte velden';]]>
+			</add>
+		</operation>
+	</file>
+	<!--address END-->
+	
+	<!--edit START-->
+	<file name="catalog/language/dutch/account/edit.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_fax']        = 'Fax:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Verplichte velden';]]>
+			</add>
+		</operation>
+	</file>
+	<!--edit END-->
+	
+	<!--order START-->
+	<file name="catalog/language/dutch/account/order.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['column_comment']        = 'Opmerking(en)';]]></search>
+			<add><![CDATA[$_[ 'text_item_ordered' ] = 'Bestelde artikelen';
+						  $_[ 'text_view_order' ] = 'Bekijk Bestelling';
+						  $_[ 'text_reorder' ] = 'nabestellen';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	<!--order END-->
+	
+	<!--login START-->
+	<file name="catalog/language/dutch/account/login.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_password']  = 'Wachtwoord:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Verplichte velden';]]>
+			</add>
+		</operation>
+	</file>
+	<!--login END-->
+	
+	<!--register START-->
+	<file name="catalog/language/dutch/account/register.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_confirm']        = 'Bevestig wachtwoord:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Verplichte velden';]]>
+			</add>
+		</operation>
+	</file>
+	<!--register END-->
+	
+	<!--password START-->
+	<file name="catalog/language/dutch/account/password.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['error_confirm']  = 'Wachtwoorden komen niet overeen!';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Verplichte velden';]]>
+			</add>
+		</operation>
+	</file>
+		
+	
+	<!--password END-->
+	
+	<!--return START-->
+	<file name="catalog/language/dutch/account/return.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['column_status']      = 'Status';]]></search>
+			<add><![CDATA[$_[ 'text_view' ] = 'uitzicht';
+						  $_[ 'text_product' ] = 'product';
+						  $_[ 'text_enter_your_captch' ] = 'Vul uw captcha';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--return END-->
+	
+	
+<!--account END-->	
+<!--affiliate START-->	
+	<!--payment START-->
+	<file name="catalog/language/dutch/affiliate/payment.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']             = 'Uitbetaalmethode';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Verplichte velden';]]>
+			</add>
+		</operation>
+	</file>
+	
+	
+	<!--payment END-->
+	
+	<!--tracking START-->
+	<file name="catalog/language/dutch/affiliate/tracking.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']      = 'Uw Transacties';]]></search>
+			<add><![CDATA[$_[ 'text_tracking_code' ] = 'Conversiecode:';
+						  $_[ 'text_tracking_link' ] = 'VOLGEN LINK:';
+						  $_[ 'text_tracking_link_generator' ] = 'VOLGEN linkgenerator:';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	<!--tracking END-->
+	<!--edit START-->
+	<file name="catalog/language/dutch/affiliate/edit.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'Mijn Account';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Verplichte velden';]]>
+			</add>
+		</operation>
+	</file>
+	<!--edit END-->
+	
+	<!--password START-->
+	<file name="catalog/language/dutch/affiliate/password.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']  = 'Wijzig wachtwoord';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Verplichte velden';]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--password END-->
+	
+	<!--login START-->
+	<file name="catalog/language/dutch/affiliate/login.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title'] = 'Affiliate Programma';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Verplichte velden';]]>
+			</add>
+		</operation>
+	</file>
+	<!--login END-->
+	
+<!--affiliate END-->
+
+<!--checkout START-->
+	<!--confirm  checkout START-->
+	<file name="catalog/language/dutch/checkout/checkout.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']                  = 'Afrekenen';]]></search>
+			<add><![CDATA[$_[ 'text_product' ] = 'product';
+						  $_[ 'text_newslatter' ] = 'nieuwsbrief';
+						  $_[ 'text_required_fields' ] = '* Verplichte velden';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--confirm checkout END-->
+	
+<!--checkout END-->
+
+<!--Common START-->
+	<!--header START-->
+	<file name="catalog/language/dutch/dutch.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['code']                  = 'nl';]]></search>
+			<add><![CDATA[$_[ 'text_home_latest' ] = 'laatst';
+						  $_[ 'text_home_feature' ] = 'Aanbevolen';
+						  $_[ 'text_home_special' ] = 'specials';
+						  $_[ 'text_home_about_vigo_shop' ] = 'Over Vigo Shop';
+						  $_[ 'text_home_our_history' ] = 'onze Geschiedenis';
+						  $_[ 'text_home_read_more' ] = 'Lees meer';
+						  $_[ 'text_home_our_team' ] = 'onze Team';
+						  $_['text_from_the_staff']  = 'Van het personeel';
+						  $_['text_read_more']  = 'Lees meer';
+						  $_['text_sorry_no_slider']  = 'Sorry, geen slider.';
+						  $_['text_home_newslatter']  = 'nieuwsbrief';
+						  $_['text_home_sign_up_desc']  = 'Zingen tot exclusieve aanbiedingen krijgen van je favoriete merken.';
+						  $_['text_home_sign_up']  = 'Aanmelden';
+						  $_['text_home_enter_your_email_address']  = 'Vul uw e-mailadres';
+			]]>
+			</add>
+		</operation>
+	</file>
+	
+	<file name="catalog/language/dutch/common/header.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_checkout']      = 'Afrekenen';]]></search>
+			<add><![CDATA[$_[ 'text_header_menu' ] = 'menu';
+						 
+						  $_[ 'text_header_close' ] = 'dicht';
+						  $_[ 'text_header_menu' ] = 'menu';
+						  $_['text_search']         = 'zoek hier';
+						$_[ 'text_compare' ] = 'vergelijken';
+						$_['text_blogs']           = 'Blogs';
+						  
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	
+	<!--header END-->
+	<!--footer START-->
+		<file name="catalog/language/dutch/common/footer.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_newsletter']   = 'Nieuwsbrief';]]></search>
+			<add><![CDATA[$_[ 'text_footer_most_favorite' ] = 'meest Favoriete';
+						  $_[ 'text_footer_quick_contact' ] = 'Snel contact';
+						  $_[ 'text_footer_enter_your_name' ] = 'Voer Uw Naam';
+						  $_[ 'text_footer_enter_your_email' ] = 'Voer uw e-';
+						  $_[ 'text_footer_enter_your_telephone' ] = 'Voer uw telefoon';
+						  $_[ 'text_footer_enter_your_message' ] = 'Vul uw bericht';
+						  $_[ 'text_footer_send_message' ] = 'Bericht verzenden';
+						  $_[ 'text_footer_facebook' ] = 'Facebook';
+						  $_[ 'text_footer_twitter' ] = 'Twitter';
+						  $_[ 'text_footer_rss' ] = 'RSS';
+						  $_[ 'text_footer_delicious' ] = 'Delicious';
+						  $_[ 'text_footer_linkedin' ] = 'Linkedin';
+						  $_[ 'text_footer_flickr' ] = 'Flickr';
+						  $_[ 'text_footer_skype' ] = 'Skype';
+						  $_[ 'text_footer_mail_to' ] = 'Mail to';
+						  $_['text_reward']        = 'Spaarpunten'; 
+						$_['text_transaction'] = 'transacties';
+						$_['text_contactinfo']   = 'Contact Info';
+						$_['text_downloads'] = 'downloads';
+						  
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--footer END-->
+<!--Common END-->
+
+<!--product START-->
+	<!--compare START-->
+	<file name="catalog/language/dutch/product/compare.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'productenvergelijking';]]></search>
+			<add><![CDATA[$_[ 'text_regular_price' ] = 'Normale prijs:';
+						  $_[ 'text_special_price' ] = 'speciale prijs::';]]>
+			</add>
+		</operation>
+	</file>
+		
+	
+	<!--compare END-->
+	
+	<!--manufacturer START-->
+	<file name="catalog/language/dutch/product/manufacturer.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'Vind je favoriete merk!';]]></search>
+			<add><![CDATA[$_[ 'text_price_filter' ] = 'Prijs filter: ';
+						  $_[ 'text_regular_price' ] = 'Normale prijs:';
+						  $_[ 'text_special_price' ] = 'speciale prijs:';]]>
+			</add>
+		</operation>
+	</file>
+		
+
+	<!--manufacturer END-->
+	
+	<!--category START-->
+	<file name="catalog/language/dutch/product/category.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_refine']       = 'Verfijnd zoeken';]]></search>
+			<add><![CDATA[$_[ 'text_price_filter' ] = 'Prijs filter: ';
+						  $_[ 'text_regular_price' ] = 'Normale prijs:';
+						  $_[ 'text_special_price' ] = 'speciale prijs:';]]>
+			</add>
+		</operation>
+	</file>
+		
+
+	<!--category END-->
+	
+	<!--isitestimonial START-->
+	<file name="catalog/language/dutch/product/isitestimonial.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']  	= 'testimonial formulier';]]></search>
+			<add><![CDATA[$_[ 'text_enter_your_name' ] = 'Voer Uw Naam';
+						  $_[ 'text_enter_your_email' ] = 'Voer uw e-';
+						  $_[ 'text_enter_your_city' ] = 'Voer uw stad';
+						  $_[ 'text_enter_your_captch' ] = 'Vul uw captcha';
+						  $_[ 'text_enter_your_subject' ] = 'Voer je onderwerp';
+						  $_[ 'text_enter_your_message' ] = 'Vul uw bericht in';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+
+	<!--isitestimonial END-->
+	
+	<!--search START-->
+	<file name="catalog/language/dutch/product/search.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'Zoeken';]]></search>
+			<add><![CDATA[$_[ 'text_price_filter' ] = 'Prijs filter: ';
+						  $_[ 'text_regular_price' ] = 'Normale prijs:';
+						  $_[ 'text_special_price' ] = 'speciale prijs:';]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--search END-->
+	
+	<!--product START-->
+	<file name="catalog/language/dutch/product/product.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_search']       = 'Zoeken';]]></search>
+			<add><![CDATA[$_[ 'text_rating_links' ] = 'rating-links';
+						  $_[ 'text_add_to_cart' ] = 'In winkelwagen';
+						  $_[ 'text_add_review' ] = 'commentaar';]]>
+			</add>
+		</operation>
+	</file>
+		
+	
+	<!--product END-->
+<!--product END-->
+<!--LANGUAGE dutch END-->
+
+<!--LANGUAGE french START-->	
+<!--account START-->	
+	<!--wishlist START-->
+	<file name="catalog/language/french/account/wishlist.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['column_action']	= 'Action';]]></search>
+			<add><![CDATA[$_['text_add_to_cart'] = 'Ajouter au panier';
+						  $_[ 'text_product' ] = 'produit';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	<!--wishlist END-->
+	
+	<!--address START-->
+	<file name="catalog/language/french/account/address.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_default']		= 'Adresse par d&eacute;faut :';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Les champs obligatoires';]]>
+			</add>
+		</operation>
+	</file>
+	<!--address END-->
+	
+	<!--edit START-->
+	<file name="catalog/language/french/account/edit.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_fax']           = 'Fax :';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Les champs obligatoires';]]>
+			</add>
+		</operation>
+	</file>
+	<!--edit END-->
+	
+	<!--order START-->
+	<file name="catalog/language/french/account/order.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['column_comment']		= 'Commentaires';]]></search>
+			<add><![CDATA[$_[ 'text_item_ordered' ] = 'Les articles commandés';
+						  $_[ 'text_view_order' ] = 'Afficher ma commande';
+						  $_[ 'text_reorder' ] = 'réorganiser';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	<!--order END-->
+	
+	<!--login START-->
+	<file name="catalog/language/french/account/login.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_password']				= 'Mot de passe :';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Les champs obligatoires';]]>
+			</add>
+		</operation>
+	</file>
+	<!--login END-->
+	
+	<!--register START-->
+	<file name="catalog/language/french/account/register.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_confirm']			= 'Confirmation du MDP :';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Les champs obligatoires';]]>
+			</add>
+		</operation>
+	</file>
+	<!--register END-->
+	
+	<!--password START-->
+	<file name="catalog/language/french/account/password.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_confirm']		= 'Confirmation du MDP :';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Les champs obligatoires';]]>
+			</add>
+		</operation>
+	</file>
+		
+	
+	<!--password END-->
+	
+	<!--return START-->
+	<file name="catalog/language/french/account/return.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['column_status']			= '&Eacute;tat';]]></search>
+			<add><![CDATA[$_[ 'text_view' ] = 'vue';
+						  $_[ 'text_product' ] = 'produit';
+						  $_[ 'text_enter_your_captch' ] = 'entrez votre captcha';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--return END-->
+	
+	
+<!--account END-->	
+<!--affiliate START-->	
+	<!--payment START-->
+	<file name="catalog/language/french/affiliate/payment.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']				= 'Mode paiement';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Les champs obligatoires';]]>
+			</add>
+		</operation>
+	</file>
+	
+	
+	<!--payment END-->
+	
+	<!--tracking START-->
+	<file name="catalog/language/french/affiliate/tracking.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']			= 'Vos transactions';]]></search>
+			<add><![CDATA[$_[ 'text_tracking_code' ] = 'Votre code de suivi:';
+						  $_[ 'text_tracking_link' ] = 'SUIVI LINK:';
+						  $_[ 'text_tracking_link_generator' ] = 'SUIVI Générateur de liens:';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	<!--tracking END-->
+	<!--edit START-->
+	<file name="catalog/language/french/affiliate/edit.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']		= 'Mon compte information';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Les champs obligatoires';]]>
+			</add>
+		</operation>
+	</file>
+	<!--edit END-->
+	
+	<!--password START-->
+	<file name="catalog/language/french/affiliate/password.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']		= 'Changement du mot de passe';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Les champs obligatoires';]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--password END-->
+	
+	<!--login START-->
+	<file name="catalog/language/french/affiliate/login.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']					= 'Programme d&#8217;affiliation';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Les champs obligatoires';]]>
+			</add>
+		</operation>
+	</file>
+	<!--login END-->
+	
+<!--affiliate END-->
+
+<!--checkout START-->
+	<!--confirm  checkout START-->
+	<file name="catalog/language/french/checkout/checkout.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']						= 'Commander';]]></search>
+			<add><![CDATA[$_[ 'text_product' ] = 'produit';
+						  $_[ 'text_newslatter' ] = 'bulletin';
+						  $_[ 'text_required_fields' ] = '* Les champs obligatoires';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--confirm checkout END-->
+	
+<!--checkout END-->
+
+<!--Common START-->
+	<!--header START-->
+	<file name="catalog/language/french/french.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['code']					= 'fr';]]></search>
+			<add><![CDATA[$_[ 'text_home_latest' ] = 'dernier';
+						  $_[ 'text_home_feature' ] = 'En vedette';
+						  $_[ 'text_home_special' ] = 'Promotions';
+						  $_[ 'text_home_about_vigo_shop' ] = 'À propos de Vigo Boutique';
+						  $_[ 'text_home_our_history' ] = 'notre histoire';
+						  $_[ 'text_home_read_more' ] = 'lire la suite';
+						  $_[ 'text_home_our_team' ] = 'notre équipe';
+						  $_['text_from_the_staff']  = 'De létat-major';
+						  $_['text_read_more']  = 'lire la suite';
+						  $_['text_sorry_no_slider']  = 'Désolé, pas de curseur.';
+						  $_['text_home_newslatter']  = 'bulletin';
+						  $_['text_home_sign_up_desc']  = 'Chantez-vous pour recevoir des offres exclusives de vos marques préférées.';
+						  $_['text_home_sign_up']  = 'Inscrivez-vous';
+						  $_['text_home_enter_your_email_address']  = 'Entrez votre adresse e-mail';
+			]]>
+			</add>
+		</operation>
+	</file>
+	
+	<file name="catalog/language/french/common/header.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_checkout']		= 'Commander';]]></search>
+			<add><![CDATA[$_[ 'text_header_menu' ] = 'menu';
+						 
+						  $_[ 'text_header_close' ] = 'proche';
+						  $_[ 'text_header_menu' ] = 'menu';
+						  $_['text_search']         = 'Rechercher ici';
+						$_[ 'text_compare' ] = 'comparer';
+						$_['text_blogs']           = 'Blogs';
+						  
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	
+	<!--header END-->
+	<!--footer START-->
+		<file name="catalog/language/french/common/footer.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_newsletter']	= 'Lettre d&#8217;information';]]></search>
+			<add><![CDATA[$_[ 'text_footer_most_favorite' ] = 'La plupart des favoris';
+						  $_[ 'text_footer_quick_contact' ] = 'contact rapide';
+						  $_[ 'text_footer_enter_your_name' ] = 'Entrez votre nom';
+						  $_[ 'text_footer_enter_your_email' ] = 'Entrez votre e-mail';
+						  $_[ 'text_footer_enter_your_telephone' ] = 'Entrez votre téléphone';
+						  $_[ 'text_footer_enter_your_message' ] = 'Saisissez votre message';
+						  $_[ 'text_footer_send_message' ] = 'Envoyer un message';
+						  $_[ 'text_footer_facebook' ] = 'Facebook';
+						  $_[ 'text_footer_twitter' ] = 'Twitter';
+						  $_[ 'text_footer_rss' ] = 'RSS';
+						  $_[ 'text_footer_delicious' ] = 'Delicious';
+						  $_[ 'text_footer_linkedin' ] = 'Linkedin';
+						  $_[ 'text_footer_flickr' ] = 'Flickr';
+						  $_[ 'text_footer_skype' ] = 'Skype';
+						  $_[ 'text_footer_mail_to' ] = 'Mail to';
+						  $_['text_reward']        = 'Des points de récompense'; 
+						$_['text_transaction'] = 'transactions';
+						$_['text_contactinfo']   = 'Coordonnées';
+						$_['text_downloads'] = 'Téléchargements';
+						  
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--footer END-->
+<!--Common END-->
+
+<!--product START-->
+	<!--compare START-->
+	<file name="catalog/language/french/product/compare.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']		= 'Comparatif produit';]]></search>
+			<add><![CDATA[$_[ 'text_regular_price' ] = 'Prix ​​normal:';
+						  $_[ 'text_special_price' ] = 'Prix ​​spécial::';]]>
+			</add>
+		</operation>
+	</file>
+		
+	
+	<!--compare END-->
+	
+	<!--manufacturer START-->
+	<file name="catalog/language/french/product/manufacturer.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'Trouver votre marque pr&eacute;f&eacute;r&eacute;e';]]></search>
+			<add><![CDATA[$_[ 'text_price_filter' ] = 'Filtre Prix: ';
+						  $_[ 'text_regular_price' ] = 'Prix ​​normal:';
+						  $_[ 'text_special_price' ] = 'Prix ​​spécial:';]]>
+			</add>
+		</operation>
+	</file>
+		
+
+	<!--manufacturer END-->
+	
+	<!--category START-->
+	<file name="catalog/language/french/product/category.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_refine']		= 'Pr&eacute;ciser la recherche';]]></search>
+			<add><![CDATA[$_[ 'text_price_filter' ] = 'Filtre Prix: ';
+						  $_[ 'text_regular_price' ] = 'Prix ​​normal:';
+						  $_[ 'text_special_price' ] = 'Prix ​​spécial:';]]>
+			</add>
+		</operation>
+	</file>
+		
+
+	<!--category END-->
+	
+	<!--isitestimonial START-->
+	<file name="catalog/language/french/product/isitestimonial.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']  	= 'Formulaire témoignage';]]></search>
+			<add><![CDATA[$_[ 'text_enter_your_name' ] = 'Entrez votre nom';
+						  $_[ 'text_enter_your_email' ] = 'Entrez votre e-mail';
+						  $_[ 'text_enter_your_city' ] = 'Entrez votre ville';
+						  $_[ 'text_enter_your_captch' ] = 'entrez votre captcha';
+						  $_[ 'text_enter_your_subject' ] = 'Entrez votre sujet';
+						  $_[ 'text_enter_your_message' ] = 'Entrez votre message';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+
+	<!--isitestimonial END-->
+	
+	<!--search START-->
+	<file name="catalog/language/french/product/search.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']		= 'Recherche';]]></search>
+			<add><![CDATA[$_[ 'text_price_filter' ] = 'Filtre Prix: ';
+						  $_[ 'text_regular_price' ] = 'Prix ​​normal:';
+						  $_[ 'text_special_price' ] = 'Prix ​​spécial:';]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--search END-->
+	
+	<!--product START-->
+	<file name="catalog/language/french/product/product.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_search']			= 'Recherche';]]></search>
+			<add><![CDATA[$_[ 'text_rating_links' ] = 'rating-links';
+						  $_[ 'text_add_to_cart' ] = 'Ajouter au panier';
+						  $_[ 'text_add_review' ] = 'Ajouter un commentaire';]]>
+			</add>
+		</operation>
+	</file>
+		
+	
+	<!--product END-->
+<!--product END-->
+<!--LANGUAGE french END-->
+
+<!--LANGUAGE german START-->	
+<!--account START-->	
+	<!--wishlist START-->
+	<file name="catalog/language/german/account/wishlist.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['column_action'] = 'Aktion';]]></search>
+			<add><![CDATA[$_['text_add_to_cart'] = 'In den Warenkorb';
+						  $_[ 'text_product' ] = 'Produkt';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	<!--wishlist END-->
+	
+	<!--address START-->
+	<file name="catalog/language/german/account/address.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_default']     = 'Standardadresse:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Pflichtangaben';]]>
+			</add>
+		</operation>
+	</file>
+	<!--address END-->
+	
+	<!--edit START-->
+	<file name="catalog/language/german/account/edit.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_fax']            = 'Fax:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Pflichtangaben';]]>
+			</add>
+		</operation>
+	</file>
+	<!--edit END-->
+	
+	<!--order START-->
+	<file name="catalog/language/german/account/order.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['column_comment']        = 'Kommentar';]]></search>
+			<add><![CDATA[$_[ 'text_item_ordered' ] = 'Bestellte Artikel';
+						  $_[ 'text_view_order' ] = 'Bestellung anzeigen';
+						  $_[ 'text_reorder' ] = 'Nachbestellung';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	<!--order END-->
+	
+	<!--login START-->
+	<file name="catalog/language/german/account/login.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_password']               = 'Passwort:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Pflichtangaben';]]>
+			</add>
+		</operation>
+	</file>
+	<!--login END-->
+	
+	<!--register START-->
+	<file name="catalog/language/german/account/register.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_confirm']        = 'Passwort bestätigen:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Pflichtangaben';]]>
+			</add>
+		</operation>
+	</file>
+	<!--register END-->
+	
+	<!--password START-->
+	<file name="catalog/language/german/account/password.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_confirm']  = 'Passwort bestätigen:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Pflichtangaben';]]>
+			</add>
+		</operation>
+	</file>
+		
+	
+	<!--password END-->
+	
+	<!--return START-->
+	<file name="catalog/language/german/account/return.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['column_status']      = 'Status';]]></search>
+			<add><![CDATA[$_[ 'text_view' ] = 'anzeigen';
+						  $_[ 'text_product' ] = 'Produkt';
+						  $_[ 'text_enter_your_captch' ] = 'Geben Sie Ihre Captcha-';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--return END-->
+	
+<!--account END-->	
+<!--affiliate START-->	
+	<!--payment START-->
+	<file name="catalog/language/german/affiliate/payment.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']             = 'Zahlungsverfahren';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Pflichtangaben';]]>
+			</add>
+		</operation>
+	</file>
+	
+	
+	<!--payment END-->
+	
+	<!--tracking START-->
+	<file name="catalog/language/german/affiliate/tracking.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']    = 'Partnerverfolgung';]]></search>
+			<add><![CDATA[$_[ 'text_tracking_code' ] = 'Ihr Tracking-Code:';
+						  $_[ 'text_tracking_link' ] = 'Tracking-Link:';
+						  $_[ 'text_tracking_link_generator' ] = 'Tracking-Link GENERATOR:';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	<!--tracking END-->
+	<!--edit START-->
+	<file name="catalog/language/german/affiliate/edit.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'Meine Kontoinformationen';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Pflichtangaben';]]>
+			</add>
+		</operation>
+	</file>
+	<!--edit END-->
+	
+	<!--password START-->
+	<file name="catalog/language/german/affiliate/password.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']  = 'Passwort ändern';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Pflichtangaben';]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--password END-->
+	
+	<!--login START-->
+	<file name="catalog/language/german/affiliate/login.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']                 = 'Partnerprogramm';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Pflichtangaben';]]>
+			</add>
+		</operation>
+	</file>
+	<!--login END-->
+	
+<!--affiliate END-->
+
+<!--checkout START-->
+	<!--confirm  checkout START-->
+	<file name="catalog/language/german/checkout/checkout.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']                  = 'Kasse';]]></search>
+			<add><![CDATA[$_[ 'text_product' ] = 'Produkt';
+						  $_[ 'text_newslatter' ] = 'Newsletter';
+						  $_[ 'text_required_fields' ] = '* Pflichtangaben';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--confirm checkout END-->
+	
+<!--checkout END-->
+
+<!--Common START-->
+
+	<!--header START-->
+	<file name="catalog/language/german/german.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['code']                  = 'de';]]></search>
+			<add><![CDATA[$_[ 'text_home_latest' ] = 'neueste';
+						  $_[ 'text_home_feature' ] = 'Besondere';
+						  $_[ 'text_home_special' ] = 'Specials';
+						  $_[ 'text_home_about_vigo_shop' ] = 'Über Vigo-Shop';
+						  $_[ 'text_home_our_history' ] = 'unsere Geschichte';
+						  $_[ 'text_home_read_more' ] = 'Lesen Sie weiter';
+						  $_[ 'text_home_our_team' ] = 'Unser Team';
+						  $_['text_from_the_staff']  = 'Von der Personal';
+						  $_['text_read_more']  = 'Lesen Sie mehr';
+						  $_['text_sorry_no_slider']  = 'Leider keine Schieberegler.';
+						  $_['text_home_newslatter']  = 'Rundschreiben';
+						  $_['text_home_sign_up_desc']  = 'Singen bis zu exklusiven Angebote aus Ihrem Lieblings-Marken zu erhalten.';
+						  $_['text_home_sign_up']  = 'Registrieren';
+						  $_['text_home_enter_your_email_address']  = 'Geben Sie Ihre E-Mail-Adresse';
+			]]>
+			</add>
+		</operation>
+	</file>
+	
+	<file name="catalog/language/german/common/header.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_checkout']      = 'Kasse';]]></search>
+			<add><![CDATA[$_[ 'text_header_menu' ] = 'Menü';
+						 
+						  $_[ 'text_header_close' ] = 'schließen';
+						  $_[ 'text_header_menu' ] = 'Menü';
+						  $_['text_search']         = 'Suchen Sie hier';
+			  	 		$_[ 'text_compare' ] = 'vergleichen';
+						$_['text_blogs']           = 'Blogs';
+						  
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	
+	<!--header END-->
+	<!--footer START-->
+		<file name="catalog/language/german/common/footer.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_newsletter']   = 'Newsletter';]]></search>
+			<add><![CDATA[$_[ 'text_footer_most_favorite' ] = 'Die meisten Lieblings';
+						  $_[ 'text_footer_quick_contact' ] = 'Schnellanfrage';
+						  $_[ 'text_footer_enter_your_name' ] = 'Geben Sie Ihren Namen';
+						  $_[ 'text_footer_enter_your_email' ] = 'Geben Sie Ihre E-Mail';
+						  $_[ 'text_footer_enter_your_telephone' ] = 'Geben Sie Ihre Telefonnummer';
+						  $_[ 'text_footer_enter_your_message' ] = 'Geben Sie Ihre Nachricht';
+						  $_[ 'text_footer_send_message' ] = 'Nachricht senden';
+						  $_[ 'text_footer_facebook' ] = 'Facebook';
+						  $_[ 'text_footer_twitter' ] = 'Twitter';
+						  $_[ 'text_footer_rss' ] = 'RSS';
+						  $_[ 'text_footer_delicious' ] = 'Delicious';
+						  $_[ 'text_footer_linkedin' ] = 'Linkedin';
+						  $_[ 'text_footer_flickr' ] = 'Flickr';
+						  $_[ 'text_footer_skype' ] = 'Skype';
+						  $_[ 'text_footer_mail_to' ] = 'Mail to';
+						  $_['text_reward']        = 'Bonuspunkte'; 
+						$_['text_transaction'] = 'Transaktionen';
+						$_['text_contactinfo']   = 'Kontakt Info';
+						$_['text_downloads'] = 'Downloads';
+						  
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--footer END-->
+
+<!--Common END-->
+
+<!--product START-->
+	<!--compare START-->
+	<file name="catalog/language/german/product/compare.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'Produktvergleich';]]></search>
+			<add><![CDATA[$_[ 'text_regular_price' ] = 'Regulärer Preis:';
+						  $_[ 'text_special_price' ] = 'Sonderpreis::';]]>
+			</add>
+		</operation>
+	</file>
+		
+	
+	<!--compare END-->
+	
+	<!--manufacturer START-->
+	<file name="catalog/language/german/product/manufacturer.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'Finde Deine Lieblingsmarke';]]></search>
+			<add><![CDATA[$_[ 'text_price_filter' ] = 'Preisfilter: ';
+						  $_[ 'text_regular_price' ] = 'Regulärer Preis:';
+						  $_[ 'text_special_price' ] = 'Sonderpreis:';]]>
+			</add>
+		</operation>
+	</file>
+		
+
+	<!--manufacturer END-->
+	
+	<!--category START-->
+	<file name="catalog/language/german/product/category.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_refine']       = 'Suche verfeinern';]]></search>
+			<add><![CDATA[$_[ 'text_price_filter' ] = 'Preisfilter: ';
+						  $_[ 'text_regular_price' ] = 'Regulärer Preis:';
+						  $_[ 'text_special_price' ] = 'Sonderpreis:';]]>
+			</add>
+		</operation>
+	</file>
+		
+
+	<!--category END-->
+	
+	<!--isitestimonial START-->
+	<file name="catalog/language/german/product/isitestimonial.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']  	= 'Testimonial-Formular';]]></search>
+			<add><![CDATA[$_[ 'text_enter_your_name' ] = 'Geben Sie Ihren Namen';
+						  $_[ 'text_enter_your_email' ] = 'Geben Sie Ihre E-Mail';
+						  $_[ 'text_enter_your_city' ] = 'Geben Sie Ihre Stadt';
+						  $_[ 'text_enter_your_captch' ] = 'Geben Sie Ihre Captcha-';
+						  $_[ 'text_enter_your_subject' ] = 'Geben Sie Ihr Betreff';
+						  $_[ 'text_enter_your_message' ] = 'Geben Sie Ihre Nachricht';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+
+	<!--isitestimonial END-->
+	
+	<!--search START-->
+	<file name="catalog/language/german/product/search.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'Suche';]]></search>
+			<add><![CDATA[$_[ 'text_price_filter' ] = 'Preisfilter: ';
+						  $_[ 'text_regular_price' ] = 'Regulärer Preis:';
+						  $_[ 'text_special_price' ] = 'Sonderpreis:';]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--search END-->
+	
+	<!--product START-->
+	<file name="catalog/language/german/product/product.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_search']       = 'Suche';]]></search>
+			<add><![CDATA[$_[ 'text_rating_links' ] = 'rating-links';
+						  $_[ 'text_add_to_cart' ] = 'In den Warenkorb';
+						  $_[ 'text_add_review' ] = 'Bewertung abgeben';]]>
+			</add>
+		</operation>
+	</file>
+		
+	
+	<!--product END-->
+<!--product END-->
+<!--LANGUAGE german END-->
+
+<!--LANGUAGE greek START-->	
+<!--account START-->	
+	<!--wishlist START-->
+	<file name="catalog/language/greek/account/wishlist.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['column_action'] = 'Ενέργεια';]]></search>
+			<add><![CDATA[$_['text_add_to_cart'] = 'Προσθήκη στο Καλάθι';
+						  $_[ 'text_product' ] = 'προϊόν';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	<!--wishlist END-->
+	
+	<!--address START-->
+	<file name="catalog/language/greek/account/address.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_default']     = 'Προεπιλεγμένη Διεύθυνση:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Υποχρεωτικά Πεδία';]]>
+			</add>
+		</operation>
+	</file>
+	<!--address END-->
+	
+	<!--edit START-->
+	<file name="catalog/language/greek/account/edit.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_fax']        = 'Φαξ:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Υποχρεωτικά Πεδία';]]>
+			</add>
+		</operation>
+	</file>
+	<!--edit END-->
+	
+	<!--order START-->
+	<file name="catalog/language/greek/account/order.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['column_comment']        = 'Σχόλια';]]></search>
+			<add><![CDATA[$_[ 'text_item_ordered' ] = 'Είδη Διέταξε';
+						  $_[ 'text_view_order' ] = 'Προβολή παραγγελίας';
+						  $_[ 'text_reorder' ] = 'Αναδιάταξη';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	<!--order END-->
+	
+	<!--login START-->
+	<file name="catalog/language/greek/account/login.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_password']               = 'Κωδικός:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Υποχρεωτικά Πεδία';]]>
+			</add>
+		</operation>
+	</file>
+	<!--login END-->
+	
+	<!--register START-->
+	<file name="catalog/language/greek/account/register.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_confirm']        = 'Επιβεβαίωση Κωδικού:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Υποχρεωτικά Πεδία';]]>
+			</add>
+		</operation>
+	</file>
+	<!--register END-->
+	
+	<!--password START-->
+	<file name="catalog/language/greek/account/password.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_confirm']  = 'Επιβεβαίωση Κωδικού:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Υποχρεωτικά Πεδία';]]>
+			</add>
+		</operation>
+	</file>
+		
+	
+	<!--password END-->
+	
+	<!--return START-->
+	<file name="catalog/language/greek/account/return.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['column_status']      = 'Κατάσταση';]]></search>
+			<add><![CDATA[$_[ 'text_view' ] = 'ΘΕΑ';
+						  $_[ 'text_product' ] = 'προϊόν';
+						  $_[ 'text_enter_your_captch' ] = 'εισάγετε captcha σας';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--return END-->
+	
+<!--account END-->	
+<!--affiliate START-->	
+	<!--payment START-->
+	<file name="catalog/language/greek/affiliate/payment.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']             = 'Τρόπος Πληρωμής';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Υποχρεωτικά Πεδία';]]>
+			</add>
+		</operation>
+	</file>
+	
+	
+	<!--payment END-->
+	
+	<!--tracking START-->
+	<file name="catalog/language/greek/affiliate/tracking.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']    = 'Παρακολούθηση Συνεργατών';]]></search>
+			<add><![CDATA[$_[ 'text_tracking_code' ] = 'ΚΑΤΑΔΙΩΞΗ ΣΑΣ ΚΩΔΙΚΟΣ:';
+						  $_[ 'text_tracking_link' ] = 'ΚΑΤΑΔΙΩΞΗ LINK:';
+						  $_[ 'text_tracking_link_generator' ] = 'ΚΑΤΑΔΙΩΞΗ LINK ΓΕΝΝΗΤΡΙΑ:';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	<!--tracking END-->
+	<!--edit START-->
+	<file name="catalog/language/greek/affiliate/edit.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'Πληροφορίες Λογαριασμού';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Υποχρεωτικά Πεδία';]]>
+			</add>
+		</operation>
+	</file>
+	<!--edit END-->
+	
+	<!--password START-->
+	<file name="catalog/language/greek/affiliate/password.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']  = 'Αλλαγή Κωδικού';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Υποχρεωτικά Πεδία';]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--password END-->
+	
+	<!--login START-->
+	<file name="catalog/language/greek/affiliate/login.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']                 = 'Πρόγραμμα Συνεργατών';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Υποχρεωτικά Πεδία';]]>
+			</add>
+		</operation>
+	</file>
+	<!--login END-->
+	
+<!--affiliate END-->
+
+<!--checkout START-->
+	<!--confirm  checkout START-->
+	<file name="catalog/language/greek/checkout/checkout.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']                  = 'Αγορά';]]></search>
+			<add><![CDATA[$_[ 'text_product' ] = 'προϊόν';
+						  $_[ 'text_newslatter' ] = 'Ενημερωτικό Δελτίο';
+						  $_[ 'text_required_fields' ] = '* Υποχρεωτικά Πεδία';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--confirm checkout END-->
+	
+<!--checkout END-->
+
+<!--Common START-->
+	<!--header START-->
+	<file name="catalog/language/greek/greek.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['code']                  = 'el';]]></search>
+			<add><![CDATA[$_[ 'text_home_latest' ] = 'αργότερο';
+						  $_[ 'text_home_feature' ] = 'Προτεινόμενο';
+						  $_[ 'text_home_special' ] = 'Προσφορές';
+						  $_[ 'text_home_about_vigo_shop' ] = 'Σχετικά Vigo Shop';
+						  $_[ 'text_home_our_history' ] = 'Η Ιστορία μας';
+						  $_[ 'text_home_read_more' ] = 'Διαβάστε περισσότερα';
+						  $_[ 'text_home_our_team' ] = 'Η ομάδα μας';
+						  $_['text_from_the_staff']  = 'Από το Προσωπικό';
+						  $_['text_read_more']  = 'Διαβάστε περισσότερα';
+						  $_['text_sorry_no_slider']  = 'Συγνώμη, δεν slider.';
+						  $_['text_home_newslatter']  = 'Ενημερωτικό Δελτίο';
+						  $_['text_home_sign_up_desc']  = 'Τραγουδήστε μέχρι να πάρει αποκλειστικές προσφορές από τις αγαπημένες σας μάρκες.';
+						  $_['text_home_sign_up']  = 'Εγγραφή';
+						  $_['text_home_enter_your_email_address']  = 'Εισάγετε τη διεύθυνση email σας';
+			]]>
+			</add>
+		</operation>
+	</file>
+	
+	<file name="catalog/language/greek/common/header.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_checkout']       = 'Αγορά';]]></search>
+			<add><![CDATA[$_[ 'text_header_menu' ] = 'μενού';
+						 
+						  $_[ 'text_header_close' ] = 'κοντά';
+						  $_[ 'text_header_menu' ] = 'μενού';
+						  $_['text_search']         = 'Αναζήτηση εδώ';
+						$_[ 'text_compare' ] = 'συγκρίνετε';
+						$_['text_blogs']           = 'Blogs';
+						  
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	
+	<!--header END-->
+	<!--footer START-->
+		<file name="catalog/language/greek/common/footer.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_newsletter']   = 'Ενημερώσεις';]]></search>
+			<add><![CDATA[$_[ 'text_footer_most_favorite' ] = 'πιο αγαπημένο';
+						  $_[ 'text_footer_quick_contact' ] = 'Γρήγορη Επικοινωνία';
+						  $_[ 'text_footer_enter_your_name' ] = 'Πληκτρολογήστε το όνομά σας';
+						  $_[ 'text_footer_enter_your_email' ] = 'Εισάγετε το email σας';
+						  $_[ 'text_footer_enter_your_telephone' ] = 'Πληκτρολογήστε το Τηλέφωνό σας';
+						  $_[ 'text_footer_enter_your_message' ] = 'Πληκτρολογήστε το μήνυμά σας';
+						  $_[ 'text_footer_send_message' ] = 'Αποστολή μηνύματος';
+						  $_[ 'text_footer_facebook' ] = 'Facebook';
+						  $_[ 'text_footer_twitter' ] = 'Twitter';
+						  $_[ 'text_footer_rss' ] = 'RSS';
+						  $_[ 'text_footer_delicious' ] = 'Delicious';
+						  $_[ 'text_footer_linkedin' ] = 'Linkedin';
+						  $_[ 'text_footer_flickr' ] = 'Flickr';
+						  $_[ 'text_footer_skype' ] = 'Skype';
+						  $_[ 'text_footer_mail_to' ] = 'Mail to';
+						  $_['text_reward']        = 'Πόντοι Ανταμοιβής'; 
+						$_['text_transaction'] = 'συναλλαγές';
+						$_['text_contactinfo']   = 'Επικοινωνία';
+						$_['text_downloads'] = 'Λήψεις';
+						  
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--footer END-->
+<!--Common END-->
+
+<!--product START-->
+	<!--compare START-->
+	<file name="catalog/language/greek/product/compare.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'Σύγκριση Προϊόντων';]]></search>
+			<add><![CDATA[$_[ 'text_regular_price' ] = 'Κανονική τιμή:';
+						  $_[ 'text_special_price' ] = 'Ειδική τιμή::';]]>
+			</add>
+		</operation>
+	</file>
+		
+	
+	<!--compare END-->
+	
+	<!--manufacturer START-->
+	<file name="catalog/language/greek/product/manufacturer.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'Ευρετήριο Κατασκευαστών';]]></search>
+			<add><![CDATA[$_[ 'text_price_filter' ] = 'filter Τιμή: ';
+						  $_[ 'text_regular_price' ] = 'Κανονική τιμή:';
+						  $_[ 'text_special_price' ] = 'Ειδική τιμή:';]]>
+			</add>
+		</operation>
+	</file>
+		
+
+	<!--manufacturer END-->
+	
+	<!--category START-->
+	<file name="catalog/language/greek/product/category.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_refine']       = 'Εξειδίκευση Αναζήτησης';]]></search>
+			<add><![CDATA[$_[ 'text_price_filter' ] = 'filter Τιμή: ';
+						  $_[ 'text_regular_price' ] = 'Κανονική τιμή:';
+						  $_[ 'text_special_price' ] = 'Ειδική τιμή:';]]>
+			</add>
+		</operation>
+	</file>
+		
+
+	<!--category END-->
+	
+	<!--isitestimonial START-->
+	<file name="catalog/language/greek/product/isitestimonial.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']  	= 'μαρτυρία Έντυπο';]]></search>
+			<add><![CDATA[$_[ 'text_enter_your_name' ] = 'Πληκτρολογήστε το όνομά σας';
+						  $_[ 'text_enter_your_email' ] = 'Εισάγετε το email σας';
+						  $_[ 'text_enter_your_city' ] = 'Εισάγετε την πόλη σας';
+						  $_[ 'text_enter_your_captch' ] = 'εισάγετε captcha σας';
+						  $_[ 'text_enter_your_subject' ] = 'Πληκτρολογήστε το θέμα σας';
+						  $_[ 'text_enter_your_message' ] = 'Πληκτρολογήστε το μήνυμά σας';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+
+	<!--isitestimonial END-->
+	
+	<!--search START-->
+	<file name="catalog/language/greek/product/search.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'Αναζήτηση';]]></search>
+			<add><![CDATA[$_[ 'text_price_filter' ] = 'filter Τιμή: ';
+						  $_[ 'text_regular_price' ] = 'Κανονική τιμή:';
+						  $_[ 'text_special_price' ] = 'Ειδική τιμή:';]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--search END-->
+	
+	<!--product START-->
+	<file name="catalog/language/greek/product/product.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_search']       = 'Αναζήτηση';]]></search>
+			<add><![CDATA[$_[ 'text_rating_links' ] = 'rating-links';
+						  $_[ 'text_add_to_cart' ] = 'Προσθήκη στο Καλάθι';
+						  $_[ 'text_add_review' ] = 'Προσθήκη κριτική';]]>
+			</add>
+		</operation>
+	</file>
+		
+	
+	<!--product END-->
+<!--product END-->
+<!--LANGUAGE greek END-->
+
+<!--LANGUAGE italian START-->	
+<!--account START-->	
+	<!--wishlist START-->
+	<file name="catalog/language/italian/account/wishlist.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['column_cart']   = 'Compralo Ora';]]></search>
+			<add><![CDATA[$_['text_add_to_cart'] = 'Aggiungi al carrello';
+						  $_[ 'text_product' ] = 'prodotto';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	<!--wishlist END-->
+	
+	<!--address START-->
+	<file name="catalog/language/italian/account/address.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_default']     = 'Indirizzo Predefinito:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* I campi obbligatori';]]>
+			</add>
+		</operation>
+	</file>
+	<!--address END-->
+	
+	<!--edit START-->
+	<file name="catalog/language/italian/account/edit.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_fax']        = 'Fax:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* I campi obbligatori';]]>
+			</add>
+		</operation>
+	</file>
+	<!--edit END-->
+	
+	<!--order START-->
+	<file name="catalog/language/italian/account/order.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['column_comment']        = 'Commento';]]></search>
+			<add><![CDATA[$_[ 'text_item_ordered' ] = 'articoli ordinati';
+						  $_[ 'text_view_order' ] = 'Visualizza ordine';
+						  $_[ 'text_reorder' ] = 'Riordina';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	<!--order END-->
+	
+	<!--login START-->
+	<file name="catalog/language/italian/account/login.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_password']               = 'Password:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* I campi obbligatori';]]>
+			</add>
+		</operation>
+	</file>
+	<!--login END-->
+	
+	<!--register START-->
+	<file name="catalog/language/italian/account/register.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_confirm']        = 'Conferma Password:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* I campi obbligatori';]]>
+			</add>
+		</operation>
+	</file>
+	<!--register END-->
+	
+	<!--password START-->
+	<file name="catalog/language/italian/account/password.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_confirm']  = 'Conferma Password:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* I campi obbligatori';]]>
+			</add>
+		</operation>
+	</file>
+		
+	
+	<!--password END-->
+	
+	<!--return START-->
+	<file name="catalog/language/italian/account/return.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['column_status']      = 'Stato';]]></search>
+			<add><![CDATA[$_[ 'text_view' ] = 'vista';
+						  $_[ 'text_product' ] = 'prodotto';
+						  $_[ 'text_enter_your_captch' ] = 'Inserisci il tuo Captcha';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--return END-->
+	
+	
+<!--account END-->	
+<!--affiliate START-->	
+	<!--payment START-->
+	<file name="catalog/language/italian/affiliate/payment.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']             = 'Metodo di Pagamento';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* I campi obbligatori';]]>
+			</add>
+		</operation>
+	</file>
+	
+	
+	<!--payment END-->
+	
+	<!--tracking START-->
+	<file name="catalog/language/italian/affiliate/tracking.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']    = 'Tracciamento Affiliazione';]]></search>
+			<add><![CDATA[$_[ 'text_tracking_code' ] = 'INSEGUIMENTO IL CODICE:';
+						  $_[ 'text_tracking_link' ] = 'TRACKING LINK:';
+						  $_[ 'text_tracking_link_generator' ] = 'TRACKING LINK GENERATOR:';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	<!--tracking END-->
+	<!--edit START-->
+	<file name="catalog/language/italian/affiliate/edit.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'Informazioni del Mio Account';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* I campi obbligatori';]]>
+			</add>
+		</operation>
+	</file>
+	<!--edit END-->
+	
+	<!--password START-->
+	<file name="catalog/language/italian/affiliate/password.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']  = 'Cambia Password';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* I campi obbligatori';]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--password END-->
+	
+	<!--login START-->
+	<file name="catalog/language/italian/affiliate/login.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']                 = 'Programma Affiliato';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* I campi obbligatori';]]>
+			</add>
+		</operation>
+	</file>
+	<!--login END-->
+	
+<!--affiliate END-->
+
+<!--checkout START-->
+	<!--confirm  checkout START-->
+	<file name="catalog/language/italian/checkout/checkout.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']                  = 'Aquisto';]]></search>
+			<add><![CDATA[$_[ 'text_product' ] = 'prodotto';
+						  $_[ 'text_newslatter' ] = 'notiziario';
+						  $_[ 'text_required_fields' ] = '* I campi obbligatori';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--confirm checkout END-->
+	
+<!--checkout END-->
+
+<!--Common START-->
+	<!--header START-->
+	<file name="catalog/language/italian/italian.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['code']                  = 'it';]]></search>
+			<add><![CDATA[$_[ 'text_home_latest' ] = 'ultimo';
+						  $_[ 'text_home_feature' ] = 'In primo piano';
+						  $_[ 'text_home_special' ] = 'Specials';
+						  $_[ 'text_home_about_vigo_shop' ] = 'A proposito di Vigo Negozio';
+						  $_[ 'text_home_our_history' ] = 'La nostra storia';
+						  $_[ 'text_home_read_more' ] = 'Per saperne di più';
+						  $_[ 'text_home_our_team' ] = 'Il nostro team';
+						  $_['text_from_the_staff']  = 'From the Staff';
+						  $_['text_read_more']  = 'Per saperne di più';
+						  $_['text_sorry_no_slider']  = 'Spiacente, nessun dispositivo di scorrimento.';
+						  $_['text_home_newslatter']  = 'notiziario';
+						  $_['text_home_sign_up_desc']  = 'Canta subito per avere offerte esclusive dei tuoi negozi preferiti.';
+						  $_['text_home_sign_up']  = 'Iscriviti';
+						  $_['text_home_enter_your_email_address']  = 'Inserisci il tuo indirizzo email';
+			]]>
+			</add>
+		</operation>
+	</file>
+	
+	<file name="catalog/language/italian/common/header.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_checkout']  = 'Acquisti';]]></search>
+			<add><![CDATA[$_[ 'text_header_menu' ] = 'Menu';
+						 
+						  $_[ 'text_header_close' ] = 'vicino';
+						  $_[ 'text_header_menu' ] = 'Menu';
+						  $_['text_search']         = 'Cerca qui';
+						$_[ 'text_compare' ] = 'confrontare';
+						$_['text_blogs']           = 'Blogs';
+						  
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	
+	<!--header END-->
+	<!--footer START-->
+		<file name="catalog/language/italian/common/footer.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_newsletter']   = 'notiziario';]]></search>
+			<add><![CDATA[$_[ 'text_footer_most_favorite' ] = 'La maggior parte favorito';
+						  $_[ 'text_footer_quick_contact' ] = 'Contatto veloce';
+						  $_[ 'text_footer_enter_your_name' ] = 'Inserisci il tuo nome';
+						  $_[ 'text_footer_enter_your_email' ] = 'Inserisci la tua e-mail';
+						  $_[ 'text_footer_enter_your_telephone' ] = 'Inserisci il tuo telefono';
+						  $_[ 'text_footer_enter_your_message' ] = 'Inserisci il tuo messaggio';
+						  $_[ 'text_footer_send_message' ] = 'Invia un messaggio';
+						  $_[ 'text_footer_facebook' ] = 'Facebook';
+						  $_[ 'text_footer_twitter' ] = 'Twitter';
+						  $_[ 'text_footer_rss' ] = 'RSS';
+						  $_[ 'text_footer_delicious' ] = 'Delicious';
+						  $_[ 'text_footer_linkedin' ] = 'Linkedin';
+						  $_[ 'text_footer_flickr' ] = 'Flickr';
+						  $_[ 'text_footer_skype' ] = 'Skype';
+						  $_[ 'text_footer_mail_to' ] = 'Mail to';
+						  $_['text_reward']        = 'Punti di fedeltà'; 
+						$_['text_transaction'] = 'transazioni';
+						$_['text_contactinfo']   = 'Informazioni di contatto';
+						$_['text_downloads'] = 'Download';
+							  
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--footer END-->
+<!--Common END-->
+
+<!--product START-->
+	<!--compare START-->
+	<file name="catalog/language/italian/product/compare.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'Confronto dei Prodotti';]]></search>
+			<add><![CDATA[$_[ 'text_regular_price' ] = 'Prezzo di Listino:';
+						  $_[ 'text_special_price' ] = 'Prezzo speciale::';]]>
+			</add>
+		</operation>
+	</file>
+		
+	
+	<!--compare END-->
+	
+	<!--manufacturer START-->
+	<file name="catalog/language/italian/product/manufacturer.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'Produttori';]]></search>
+			<add><![CDATA[$_[ 'text_price_filter' ] = 'Filtra per prezzo: ';
+						  $_[ 'text_regular_price' ] = 'Prezzo di Listino:';
+						  $_[ 'text_special_price' ] = 'Prezzo speciale:';]]>
+			</add>
+		</operation>
+	</file>
+		
+
+	<!--manufacturer END-->
+	
+	<!--category START-->
+	<file name="catalog/language/italian/product/category.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_refine']       = 'Perfeziona la Ricerca';]]></search>
+			<add><![CDATA[$_[ 'text_price_filter' ] = 'Filtra per prezzo: ';
+						  $_[ 'text_regular_price' ] = 'Prezzo di Listino:';
+						  $_[ 'text_special_price' ] = 'Prezzo speciale:';]]>
+			</add>
+		</operation>
+	</file>
+		
+
+	<!--category END-->
+	
+	<!--isitestimonial START-->
+	<file name="catalog/language/italian/product/isitestimonial.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']  	= 'forma testimonial';]]></search>
+			<add><![CDATA[$_[ 'text_enter_your_name' ] = 'Inserisci il tuo nome';
+						  $_[ 'text_enter_your_email' ] = 'Inserisci la tua e-mail';
+						  $_[ 'text_enter_your_city' ] = 'Inserisci la tua città';
+						  $_[ 'text_enter_your_captch' ] = 'Inserisci il tuo Captcha';
+						  $_[ 'text_enter_your_subject' ] = 'Inserisci il tuo Oggetto';
+						  $_[ 'text_enter_your_message' ] = 'Inserisci il tuo messaggio';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+
+	<!--isitestimonial END-->
+	
+	<!--search START-->
+	<file name="catalog/language/italian/product/search.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'Ricerca';]]></search>
+			<add><![CDATA[$_[ 'text_price_filter' ] = 'Filtra per prezzo: ';
+						  $_[ 'text_regular_price' ] = 'Prezzo di Listino:';
+						  $_[ 'text_special_price' ] = 'Prezzo speciale:';]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--search END-->
+	
+	<!--product START-->
+	<file name="catalog/language/italian/product/product.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_search']       = 'Cerca';]]></search>
+			<add><![CDATA[$_[ 'text_rating_links' ] = 'rating-links';
+						  $_[ 'text_add_to_cart' ] = 'Aggiungi al carrello';
+						  $_[ 'text_add_review' ] = 'Aggiungi recensione';]]>
+			</add>
+		</operation>
+	</file>
+		
+	
+	<!--product END-->
+<!--product END-->
+<!--LANGUAGE italian END-->
+
+<!--LANGUAGE japanese START-->	
+<!--account START-->	
+	<!--wishlist START-->
+	<file name="catalog/language/japanese/account/wishlist.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['column_action']   = 'アクション';]]></search>
+			<add><![CDATA[$_['text_add_to_cart'] = 'カートに入れる';
+						  $_[ 'text_product' ] = '製品';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	<!--wishlist END-->
+	
+	<!--address START-->
+	<file name="catalog/language/japanese/account/address.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_default']     = 'この住所をメインにしますか？:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* 必要なフィールド';]]>
+			</add>
+		</operation>
+	</file>
+	<!--address END-->
+	
+	<!--edit START-->
+	<file name="catalog/language/japanese/account/edit.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_fax']        = 'ファックス:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* 必要なフィールド';]]>
+			</add>
+		</operation>
+	</file>
+	<!--edit END-->
+	
+	<!--order START-->
+	<file name="catalog/language/japanese/account/order.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['column_comment']        = 'コメント';]]></search>
+			<add><![CDATA[$_[ 'text_item_ordered' ] = '注文品';
+						  $_[ 'text_view_order' ] = '発注内容の閲覧';
+						  $_[ 'text_reorder' ] = '再注文';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	<!--order END-->
+	
+	<!--login START-->
+	<file name="catalog/language/japanese/account/login.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_password']               = 'パスワード:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* 必要なフィールド';]]>
+			</add>
+		</operation>
+	</file>
+	<!--login END-->
+	
+	<!--register START-->
+	<file name="catalog/language/japanese/account/register.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_confirm']        = '確認のためもう一度入力してください:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* 必要なフィールド';]]>
+			</add>
+		</operation>
+	</file>
+	<!--register END-->
+	
+	<!--password START-->
+	<file name="catalog/language/japanese/account/password.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_confirm']  = '確認のためもう一度入力:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* 必要なフィールド';]]>
+			</add>
+		</operation>
+	</file>
+		
+	
+	<!--password END-->
+	
+	<!--return START-->
+	<file name="catalog/language/japanese/account/return.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['column_status']      = 'ステータス';]]></search>
+			<add><![CDATA[$_[ 'text_view' ] = 'ビュー';
+						  $_[ 'text_product' ] = '製品';
+						  $_[ 'text_enter_your_captch' ] = 'あなたのCAPTCHAを入力してください';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--return END-->
+	
+	
+<!--account END-->	
+<!--affiliate START-->	
+	<!--payment START-->
+	<file name="catalog/language/japanese/affiliate/payment.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']             = '支払い方法';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* 必要なフィールド';]]>
+			</add>
+		</operation>
+	</file>
+	
+	
+	<!--payment END-->
+	
+	<!--tracking START-->
+	<file name="catalog/language/japanese/affiliate/tracking.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']    = 'アフィリエイトトラッキング';]]></search>
+			<add><![CDATA[$_[ 'text_tracking_code' ] = 'トラッキングコード:';
+						  $_[ 'text_tracking_link' ] = 'トラッキングLINK:';
+						  $_[ 'text_tracking_link_generator' ] = '追跡リンクジェネレータ:';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	<!--tracking END-->
+	<!--edit START-->
+	<file name="catalog/language/japanese/affiliate/edit.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'マイアフィリエイトアカウント';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* 必要なフィールド';]]>
+			</add>
+		</operation>
+	</file>
+	<!--edit END-->
+	
+	<!--password START-->
+	<file name="catalog/language/japanese/affiliate/password.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']  = 'パスワードの変更';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* 必要なフィールド';]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--password END-->
+	
+	<!--login START-->
+	<file name="catalog/language/japanese/affiliate/login.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']                 = 'アフィリエイト';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* 必要なフィールド';]]>
+			</add>
+		</operation>
+	</file>
+	<!--login END-->
+	
+<!--affiliate END-->
+
+<!--checkout START-->
+	<!--confirm  checkout START-->
+	<file name="catalog/language/japanese/checkout/checkout.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']                  = 'チェックアウト';]]></search>
+			<add><![CDATA[$_[ 'text_product' ] = '製品';
+						  $_[ 'text_newslatter' ] = 'ニュースレター';
+						  $_[ 'text_required_fields' ] = '* 必要なフィールド';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--confirm checkout END-->
+	
+<!--checkout END-->
+
+<!--Common START-->
+	<!--header START-->
+	<file name="catalog/language/japanese/japanese.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['code']                  = 'ja';]]></search>
+			<add><![CDATA[$_[ 'text_home_latest' ] = '最新';
+						  $_[ 'text_home_feature' ] = '注目';
+						  $_[ 'text_home_special' ] = 'スペシャル';
+						  $_[ 'text_home_about_vigo_shop' ] = 'ビーゴショップについて';
+						  $_[ 'text_home_our_history' ] = '私たちの歴史';
+						  $_[ 'text_home_read_more' ] = '続きを読む';
+						  $_[ 'text_home_our_team' ] = '私達のチーム';
+						  $_['text_from_the_staff']  = 'スタッフから';
+						  $_['text_read_more']  = '続きを読む';
+						  $_['text_sorry_no_slider']  = '申し訳ありませんが、スライダー。';
+						  $_['text_home_newslatter']  = 'ニュースレター';
+						  $_['text_home_sign_up_desc']  = 'お気に入りのブランドから特別オファーを得るまで歌う。';
+						  $_['text_home_sign_up']  = '登録';
+						  $_['text_home_enter_your_email_address']  = 'メールアドレスを入力してください';
+			]]>
+			</add>
+		</operation>
+	</file>
+	
+	<file name="catalog/language/japanese/common/header.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_checkout'] = 'チェックアウト';]]></search>
+			<add><![CDATA[$_[ 'text_header_menu' ] = 'メニュー';
+						 
+						  $_[ 'text_header_close' ] = 'クローズ';
+						  $_[ 'text_header_menu' ] = 'メニュー';
+						  $_['text_search']         = '検索する';
+						$_[ 'text_compare' ] = '比較する';
+						$_['text_blogs']           = 'ブログ';
+						  
+						  
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	
+	<!--header END-->
+	<!--footer START-->
+		<file name="catalog/language/japanese/common/footer.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_newsletter']   = 'ニュースレター';]]></search>
+			<add><![CDATA[$_[ 'text_footer_most_favorite' ] = '一番好き';
+						  $_[ 'text_footer_quick_contact' ] = 'クイックコンタクト';
+						  $_[ 'text_footer_enter_your_name' ] = 'あなたのお名前を入力してください';
+						  $_[ 'text_footer_enter_your_email' ] = 'あなたのメールアドレスを入力';
+						  $_[ 'text_footer_enter_your_telephone' ] = 'あなたの電話番号を入力してください';
+						  $_[ 'text_footer_enter_your_message' ] = 'メッセージを入力';
+						  $_[ 'text_footer_send_message' ] = 'メッセージを送る';
+						  $_[ 'text_footer_facebook' ] = 'Facebook';
+						  $_[ 'text_footer_twitter' ] = 'Twitter';
+						  $_[ 'text_footer_rss' ] = 'RSS';
+						  $_[ 'text_footer_delicious' ] = 'Delicious';
+						  $_[ 'text_footer_linkedin' ] = 'Linkedin';
+						  $_[ 'text_footer_flickr' ] = 'Flickr';
+						  $_[ 'text_footer_skype' ] = 'Skype';
+						  $_[ 'text_footer_mail_to' ] = 'Mail to';
+						  $_['text_reward']        = '報酬ポイント'; 
+						$_['text_transaction'] = '取引';
+						$_['text_contactinfo']   = 'コンタクト情報';
+						$_['text_downloads'] = 'ダウンロード';
+						  
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--footer END-->
+<!--Common END-->
+
+<!--product START-->
+	<!--compare START-->
+	<file name="catalog/language/japanese/product/compare.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = '商品比較';]]></search>
+			<add><![CDATA[$_[ 'text_regular_price' ] = '定価:';
+						  $_[ 'text_special_price' ] = '特別価格::';]]>
+			</add>
+		</operation>
+	</file>
+		
+	
+	<!--compare END-->
+	
+	<!--manufacturer START-->
+	<file name="catalog/language/japanese/product/manufacturer.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = '好きなメーカーから選んでください';]]></search>
+			<add><![CDATA[$_[ 'text_price_filter' ] = '価格フィルタ: ';
+
+						  $_[ 'text_regular_price' ] = '定価:';
+						  $_[ 'text_special_price' ] = '特別価格:';]]>
+			</add>
+		</operation>
+	</file>
+		
+
+	<!--manufacturer END-->
+	
+	<!--category START-->
+	<file name="catalog/language/japanese/product/category.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_refine']       = '絞込検索';]]></search>
+			<add><![CDATA[$_[ 'text_price_filter' ] = '価格フィルタ: ';
+						  $_[ 'text_regular_price' ] = '定価:';
+						  $_[ 'text_special_price' ] = '特別価格:';]]>
+			</add>
+		</operation>
+	</file>
+		
+
+	<!--category END-->
+	
+	<!--isitestimonial START-->
+	<file name="catalog/language/japanese/product/isitestimonial.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']  	= '推薦状フォーム';]]></search>
+			<add><![CDATA[$_[ 'text_enter_your_name' ] = 'あなたのお名前を入力してください';
+						  $_[ 'text_enter_your_email' ] = 'あなたのメールアドレスを入力';
+						  $_[ 'text_enter_your_city' ] = 'あなたの街の名前を入力';
+						  $_[ 'text_enter_your_captch' ] = 'あなたのCAPTCHAを入力してください';
+						  $_[ 'text_enter_your_subject' ] = 'あなたの件名を入力してください';
+						  $_[ 'text_enter_your_message' ] = 'メッセージを入力';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+
+	<!--isitestimonial END-->
+	
+	<!--search START-->
+	<file name="catalog/language/japanese/product/search.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = '検索';]]></search>
+			<add><![CDATA[$_[ 'text_price_filter' ] = '価格フィルタ: ';
+						  $_[ 'text_regular_price' ] = '定価:';
+						  $_[ 'text_special_price' ] = '特別価格:';]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--search END-->
+	
+	<!--product START-->
+	<file name="catalog/language/japanese/product/product.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_search']       = '検索';]]></search>
+			<add><![CDATA[$_[ 'text_rating_links' ] = '評価 - リンク';
+						  $_[ 'text_add_to_cart' ] = 'カートに入れる';
+						  $_[ 'text_add_review' ] = 'レビューを追加する';]]>
+			</add>
+		</operation>
+	</file>
+		
+	
+	<!--product END-->
+<!--product END-->
+<!--LANGUAGE japanese END-->
+
+<!--LANGUAGE portuguese START-->	
+<!--account START-->	
+	<!--wishlist START-->
+	<file name="catalog/language/portuguese/account/wishlist.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['column_action'] = 'Acção';]]></search>
+			<add><![CDATA[$_['text_add_to_cart'] = 'Adicionar ao carrinho';
+						  $_[ 'text_product' ] = 'produto';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	<!--wishlist END-->
+	
+	<!--address START-->
+	<file name="catalog/language/portuguese/account/address.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_default']     = 'Morada Padrão:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Os campos obrigatórios';]]>
+			</add>
+		</operation>
+	</file>
+	<!--address END-->
+	
+	<!--edit START-->
+	<file name="catalog/language/portuguese/account/edit.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_fax']         = 'Fax:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Os campos obrigatórios';]]>
+			</add>
+		</operation>
+	</file>
+	<!--edit END-->
+	
+	<!--order START-->
+	<file name="catalog/language/portuguese/account/order.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['column_comment']        = 'Comentários';]]></search>
+			<add><![CDATA[$_[ 'text_item_ordered' ] = 'artigos encomendados';
+						  $_[ 'text_view_order' ] = 'Ver encomenda';
+						  $_[ 'text_reorder' ] = 'reordenar';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	<!--order END-->
+	
+	<!--login START-->
+	<file name="catalog/language/portuguese/account/login.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_password']               = 'A sua senha:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Os campos obrigatórios';]]>
+			</add>
+		</operation>
+	</file>
+	<!--login END-->
+	
+	<!--register START-->
+	<file name="catalog/language/portuguese/account/register.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_confirm']        = 'Repetir Senha:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Os campos obrigatórios';]]>
+			</add>
+		</operation>
+	</file>
+	<!--register END-->
+	
+	<!--password START-->
+	<file name="catalog/language/portuguese/account/password.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_confirm']  = 'Repetir Senha:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Os campos obrigatórios';]]>
+			</add>
+		</operation>
+	</file>
+		
+	
+	<!--password END-->
+	
+	<!--return START-->
+	<file name="catalog/language/portuguese/account/return.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['column_status']      = 'Situação';]]></search>
+			<add><![CDATA[$_[ 'text_view' ] = 'VISTA';
+						  $_[ 'text_product' ] = 'produto';
+						  $_[ 'text_enter_your_captch' ] = 'Digite seu captcha';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--return END-->
+	
+<!--account END-->	
+<!--affiliate START-->	
+	<!--payment START-->
+	<file name="catalog/language/portuguese/affiliate/payment.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']             = 'Pagamento';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Os campos obrigatórios';]]>
+			</add>
+		</operation>
+	</file>
+	
+	
+	<!--payment END-->
+	
+	<!--tracking START-->
+	<file name="catalog/language/portuguese/affiliate/tracking.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']    = 'Gerar Links';]]></search>
+			<add><![CDATA[$_[ 'text_tracking_code' ] = 'SEU CÓDIGO DE RASTREAMENTO:';
+						  $_[ 'text_tracking_link' ] = 'rastreamento de link:';
+						  $_[ 'text_tracking_link_generator' ] = 'RASTREAMENTO Geradores de link:';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	<!--tracking END-->
+	<!--edit START-->
+	<file name="catalog/language/portuguese/affiliate/edit.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'Alterar Conta';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Os campos obrigatórios';]]>
+			</add>
+		</operation>
+	</file>
+	<!--edit END-->
+	
+	<!--password START-->
+	<file name="catalog/language/portuguese/affiliate/password.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']  = 'Alterar Senha';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Os campos obrigatórios';]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--password END-->
+	
+	<!--login START-->
+	<file name="catalog/language/portuguese/affiliate/login.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']                 = 'Aceder/Registar';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Os campos obrigatórios';]]>
+			</add>
+		</operation>
+	</file>
+	<!--login END-->
+	
+<!--affiliate END-->
+
+<!--checkout START-->
+	<!--confirm  checkout START-->
+	<file name="catalog/language/portuguese/checkout/checkout.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']                  = 'Finalizar Compra';]]></search>
+			<add><![CDATA[$_[ 'text_product' ] = 'produto';
+						  $_[ 'text_newslatter' ] = 'boletim informativo';
+						  $_[ 'text_required_fields' ] = '* Os campos obrigatórios';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--confirm checkout END-->
+	
+<!--checkout END-->
+
+<!--Common START-->
+	<!--header START-->
+	<file name="catalog/language/portuguese/portuguese.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['code']                  = 'pt-pr';]]></search>
+			<add><![CDATA[$_[ 'text_home_latest' ] = 'Latest';
+						  $_[ 'text_home_feature' ] = 'Destaque';
+						  $_[ 'text_home_special' ] = 'Promoções';
+						  $_[ 'text_home_about_vigo_shop' ] = 'Sobre Vigo Loja';
+						  $_[ 'text_home_our_history' ] = 'Nossa História';
+						  $_[ 'text_home_read_more' ] = 'Leia mais';
+						  $_[ 'text_home_our_team' ] = 'Nossa equipe';
+						  $_['text_from_the_staff']  = 'Do Pessoal';
+						  $_['text_read_more']  = 'Leia mais';
+						  $_['text_sorry_no_slider']  = 'Desculpe, no slider.';
+						  $_['text_home_newslatter']  = 'boletim informativo';
+						  $_['text_home_sign_up_desc']  = 'Canta-se para receber ofertas exclusivas de suas marcas favoritas.';
+						  $_['text_home_sign_up']  = 'inscrever-se';
+						  $_['text_home_enter_your_email_address']  = 'Digite seu endereço de e-mail';
+			]]>
+			</add>
+		</operation>
+	</file>
+	
+	<file name="catalog/language/portuguese/common/header.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_checkout']      = 'Finalizar Pedido';]]></search>
+			<add><![CDATA[$_[ 'text_header_menu' ] = 'Menu';
+						 
+						  $_[ 'text_header_close' ] = 'perto';
+						  $_[ 'text_header_menu' ] = 'Menu';
+						  $_['text_search']         = 'Procure aqui';
+						$_[ 'text_compare' ] = 'comparar';
+						$_['text_blogs']           = 'Blogs';
+						  
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	
+	<!--header END-->
+	<!--footer START-->
+		<file name="catalog/language/portuguese/common/footer.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_newsletter']   = 'Minha boletim informativo';]]></search>
+			<add><![CDATA[$_[ 'text_footer_most_favorite' ] = 'Mais Favorita';
+						  $_[ 'text_footer_quick_contact' ] = 'contato rápido';
+						  $_[ 'text_footer_enter_your_name' ] = 'Digite seu nome';
+						  $_[ 'text_footer_enter_your_email' ] = 'Digite seu e-mail';
+						  $_[ 'text_footer_enter_your_telephone' ] = 'Digite seu Telefone';
+						  $_[ 'text_footer_enter_your_message' ] = 'Digite sua mensagem';
+						  $_[ 'text_footer_send_message' ] = 'Enviar Mensagem';
+						  $_[ 'text_footer_facebook' ] = 'Facebook';
+						  $_[ 'text_footer_twitter' ] = 'Twitter';
+						  $_[ 'text_footer_rss' ] = 'RSS';
+						  $_[ 'text_footer_delicious' ] = 'Delicious';
+						  $_[ 'text_footer_linkedin' ] = 'Linkedin';
+						  $_[ 'text_footer_flickr' ] = 'Flickr';
+						  $_[ 'text_footer_skype' ] = 'Skype';
+						  $_[ 'text_footer_mail_to' ] = 'Mail to';
+						  $_['text_reward']        = 'Pontos de Recompensa'; 
+						$_['text_transaction'] = 'Transações';
+						$_['text_contactinfo']   = 'Informações de Contato';
+						$_['text_downloads'] = 'de downloads';
+						  
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--footer END-->
+<!--Common END-->
+
+<!--product START-->
+	<!--compare START-->
+	<file name="catalog/language/portuguese/product/compare.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'Comparação de Produtos';]]></search>
+			<add><![CDATA[$_[ 'text_regular_price' ] = 'Preço Normal:';
+						  $_[ 'text_special_price' ] = 'Preço especial::';]]>
+			</add>
+		</operation>
+	</file>
+		
+	
+	<!--compare END-->
+	
+	<!--manufacturer START-->
+	<file name="catalog/language/portuguese/product/manufacturer.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'Lista de Fabricantes';]]></search>
+			<add><![CDATA[$_[ 'text_price_filter' ] = 'filtro Preço: ';
+						  $_[ 'text_regular_price' ] = 'Preço Normal:';
+						  $_[ 'text_special_price' ] = 'Preço especial:';]]>
+			</add>
+		</operation>
+	</file>
+		
+
+	<!--manufacturer END-->
+	
+	<!--category START-->
+	<file name="catalog/language/portuguese/product/category.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_refine']       = 'Filtrar';]]></search>
+			<add><![CDATA[$_[ 'text_price_filter' ] = 'filtro Preço: ';
+						  $_[ 'text_regular_price' ] = 'Preço Normal:';
+						  $_[ 'text_special_price' ] = 'Preço especial:';]]>
+			</add>
+		</operation>
+	</file>
+		
+
+	<!--category END-->
+	
+	<!--isitestimonial START-->
+	<file name="catalog/language/portuguese/product/isitestimonial.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']  	= 'depoimento Form';]]></search>
+			<add><![CDATA[$_[ 'text_enter_your_name' ] = 'Digite seu nome';
+						  $_[ 'text_enter_your_email' ] = 'Digite seu e-mail';
+						  $_[ 'text_enter_your_city' ] = 'Insira sua cidade';
+						  $_[ 'text_enter_your_captch' ] = 'Digite seu captcha';
+						  $_[ 'text_enter_your_subject' ] = 'Digite seu Assunto';
+						  $_[ 'text_enter_your_message' ] = 'Digite sua mensagem';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+
+	<!--isitestimonial END-->
+	
+	<!--search START-->
+	<file name="catalog/language/portuguese/product/search.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'Pesquisa';]]></search>
+			<add><![CDATA[$_[ 'text_price_filter' ] = 'filtro Preço: ';
+						  $_[ 'text_regular_price' ] = 'Preço Normal:';
+						  $_[ 'text_special_price' ] = 'Preço especial:';]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--search END-->
+	
+	<!--product START-->
+	<file name="catalog/language/portuguese/product/product.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_search']       = 'Pesquisa';]]></search>
+			<add><![CDATA[$_[ 'text_rating_links' ] = 'Avaliação-links';
+						  $_[ 'text_add_to_cart' ] = 'Adicionar ao carrinho';
+						  $_[ 'text_add_review' ] = 'Adicionar comentário';]]>
+			</add>
+		</operation>
+	</file>
+		
+	
+	<!--product END-->
+<!--product END-->
+<!--LANGUAGE portuguese END-->
+
+<!--LANGUAGE russian START-->	
+<!--account START-->	
+	<!--wishlist START-->
+	<file name="catalog/language/russian/account/wishlist.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['column_action']   = 'Действие';]]></search>
+			<add><![CDATA[$_['text_add_to_cart'] = 'Добавить в корзину';
+						  $_[ 'text_product' ] = 'продукт';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	<!--wishlist END-->
+	
+	<!--address START-->
+	<file name="catalog/language/russian/account/address.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_default']     = 'Основной адрес:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Обязательные поля';]]>
+			</add>
+		</operation>
+	</file>
+	<!--address END-->
+	
+	<!--edit START-->
+	<file name="catalog/language/russian/account/edit.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_fax']           = 'Факс:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Обязательные поля';]]>
+			</add>
+		</operation>
+	</file>
+	<!--edit END-->
+	
+	<!--order START-->
+	<file name="catalog/language/russian/account/order.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['column_comment']        = 'Комментарий';]]></search>
+			<add><![CDATA[$_[ 'text_item_ordered' ] = 'заказанных товаров';
+						  $_[ 'text_view_order' ] = 'Посмотреть Заказать';
+						  $_[ 'text_reorder' ] = 'Изменение порядка';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	<!--order END-->
+
+	
+	<!--login START-->
+	<file name="catalog/language/russian/account/login.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_password']               = 'Пароль:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Обязательные поля';]]>
+			</add>
+		</operation>
+	</file>
+	<!--login END-->
+	
+	<!--register START-->
+	<file name="catalog/language/russian/account/register.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_confirm']        = 'Подтверждение пароля:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Обязательные поля';]]>
+			</add>
+		</operation>
+	</file>
+	<!--register END-->
+	
+	<!--password START-->
+	<file name="catalog/language/russian/account/password.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_confirm']  = 'Подтвердите пароль:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Обязательные поля';]]>
+			</add>
+		</operation>
+	</file>
+		
+	
+	<!--password END-->
+	
+	<!--return START-->
+	<file name="catalog/language/russian/account/return.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['column_status']      = 'Статус';]]></search>
+			<add><![CDATA[$_[ 'text_view' ] = 'ВЗГЛЯД';
+						  $_[ 'text_product' ] = 'продукт';
+						  $_[ 'text_enter_your_captch' ] = 'Введите Captcha';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--return END-->
+	
+<!--account END-->	
+<!--affiliate START-->	
+	<!--payment START-->
+	<file name="catalog/language/russian/affiliate/payment.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']             = 'Способ оплаты';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Обязательные поля';]]>
+			</add>
+		</operation>
+	</file>
+	
+	
+	<!--payment END-->
+	
+	<!--tracking START-->
+	<file name="catalog/language/russian/affiliate/tracking.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']    = 'Реферальные ссылки';]]></search>
+			<add><![CDATA[$_[ 'text_tracking_code' ] = 'Код отслеживания:';
+						  $_[ 'text_tracking_link' ] = 'Отслеживание ссылке:';
+						  $_[ 'text_tracking_link_generator' ] = 'Отслеживание ссылке ГЕНЕРАТОР:';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	<!--tracking END-->
+	<!--edit START-->
+	<file name="catalog/language/russian/affiliate/edit.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'Моя информация';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Обязательные поля';]]>
+			</add>
+		</operation>
+	</file>
+	<!--edit END-->
+	
+	<!--password START-->
+	<file name="catalog/language/russian/affiliate/password.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']  = 'Смена пароля';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Обязательные поля';]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--password END-->
+	
+	<!--login START-->
+	<file name="catalog/language/russian/affiliate/login.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']                 = 'Партнерская программа';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Обязательные поля';]]>
+			</add>
+		</operation>
+	</file>
+	<!--login END-->
+	
+<!--affiliate END-->
+
+<!--checkout START-->
+	<!--confirm  checkout START-->
+	<file name="catalog/language/russian/checkout/checkout.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']                  = 'Оформление заказа';]]></search>
+			<add><![CDATA[$_[ 'text_product' ] = 'продукт';
+						  $_[ 'text_newslatter' ] = 'информационный бюллетень';
+						  $_[ 'text_required_fields' ] = '* Обязательные поля';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--confirm checkout END-->
+	
+<!--checkout END-->
+
+<!--Common START-->
+	<!--header START-->
+	<file name="catalog/language/russian/russian.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['code']                  = 'ru';]]></search>
+			<add><![CDATA[$_[ 'text_home_latest' ] = 'последний';
+						  $_[ 'text_home_feature' ] = 'Показанный';
+						  $_[ 'text_home_special' ] = 'Скидки';
+						  $_[ 'text_home_about_vigo_shop' ] = 'О Виго магазин';
+						  $_[ 'text_home_our_history' ] = 'Наша история';
+						  $_[ 'text_home_read_more' ] = 'Подробнее';
+						  $_[ 'text_home_our_team' ] = 'Наша команда';
+						  $_['text_from_the_staff']  = 'Из штаба';
+						  $_['text_read_more']  = 'Подробнее';
+						  $_['text_sorry_no_slider']  = 'К сожалению, нет слайдер.';
+						  $_['text_home_newslatter']  = 'информационный бюллетень';
+						  $_['text_home_sign_up_desc']  = 'Пойте, чтобы получить эксклюзивные предложения от любимых брендов.';
+						  $_['text_home_sign_up']  = 'Зарегистрироваться';
+						  $_['text_home_enter_your_email_address']  = 'Укажите адрес электронной почты';
+			]]>
+			</add>
+		</operation>
+	</file>
+	
+	<file name="catalog/language/russian/common/header.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_checkout'] = 'Оформление заказа';]]></search>
+			<add><![CDATA[$_[ 'text_header_menu' ] = 'меню';
+						 
+						  $_[ 'text_header_close' ] = 'близко';
+						  $_[ 'text_header_menu' ] = 'меню';
+						  $_['text_search']         = 'Поиск здесь';
+						$_[ 'text_compare' ] = 'сравнить';
+						$_['text_blogs']           = 'Блоги';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	
+	<!--header END-->
+	<!--footer START-->
+		<file name="catalog/language/russian/common/footer.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_newsletter']   = 'Рассылка';]]></search>
+			<add><![CDATA[$_[ 'text_footer_most_favorite' ] = 'Самые любимые';
+						  $_[ 'text_footer_quick_contact' ] = 'Быстрый контакт';
+						  $_[ 'text_footer_enter_your_name' ] = 'Введите Ваше Имя';
+						  $_[ 'text_footer_enter_your_email' ] = 'Введите e-mail';
+						  $_[ 'text_footer_enter_your_telephone' ] = 'Введите Телефон';
+						  $_[ 'text_footer_enter_your_message' ] = 'Введите сообщение';
+						  $_[ 'text_footer_send_message' ] = 'Отправить сообщение';
+						  $_[ 'text_footer_facebook' ] = 'Facebook';
+						  $_[ 'text_footer_twitter' ] = 'Twitter';
+						  $_[ 'text_footer_rss' ] = 'RSS';
+						  $_[ 'text_footer_delicious' ] = 'Delicious';
+						  $_[ 'text_footer_linkedin' ] = 'Linkedin';
+						  $_[ 'text_footer_flickr' ] = 'Flickr';
+						  $_[ 'text_footer_skype' ] = 'Skype';
+						  $_[ 'text_footer_mail_to' ] = 'Mail to';
+						  $_['text_reward']        = 'Бонусные баллы'; 
+						$_['text_transaction'] = 'Сделки';
+						$_['text_contactinfo']   = 'Контактная информация';
+						$_['text_downloads'] = 'Загрузки';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--footer END-->
+<!--Common END-->
+
+<!--product START-->
+	<!--compare START-->
+	<file name="catalog/language/russian/product/compare.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'Сравнение товаров';]]></search>
+			<add><![CDATA[$_[ 'text_regular_price' ] = 'Обычная цена:';
+						  $_[ 'text_special_price' ] = 'Специальная цена::';]]>
+			</add>
+		</operation>
+	</file>
+		
+	
+	<!--compare END-->
+	
+	<!--manufacturer START-->
+	<file name="catalog/language/russian/product/manufacturer.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'Найдите свой любимый бренд';]]></search>
+			<add><![CDATA[$_[ 'text_price_filter' ] = 'Цена фильтр: ';
+						  $_[ 'text_regular_price' ] = 'Обычная цена:';
+						  $_[ 'text_special_price' ] = 'Специальная цена:';]]>
+			</add>
+		</operation>
+	</file>
+		
+
+	<!--manufacturer END-->
+	
+	<!--category START-->
+	<file name="catalog/language/russian/product/category.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_refine']       = 'Выберите подкатегорию';]]></search>
+			<add><![CDATA[$_[ 'text_price_filter' ] = 'Цена фильтр: ';
+						  $_[ 'text_regular_price' ] = 'Обычная цена:';
+						  $_[ 'text_special_price' ] = 'Специальная цена:';]]>
+			</add>
+		</operation>
+	</file>
+		
+
+	<!--category END-->
+	
+	<!--isitestimonial START-->
+	<file name="catalog/language/russian/product/isitestimonial.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']  	= 'Отзывы покупателей';]]></search>
+			<add><![CDATA[$_[ 'text_enter_your_name' ] = 'Введите Ваше Имя';
+						  $_[ 'text_enter_your_email' ] = 'Введите e-mail';
+						  $_[ 'text_enter_your_city' ] = 'Введите город';
+						  $_[ 'text_enter_your_captch' ] = 'Введите Captcha';
+						  $_[ 'text_enter_your_subject' ] = 'Введите Тема';
+						  $_[ 'text_enter_your_message' ] = 'Введите сообщение';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+
+	<!--isitestimonial END-->
+	
+	<!--search START-->
+	<file name="catalog/language/russian/product/search.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'Поиск';]]></search>
+			<add><![CDATA[$_[ 'text_price_filter' ] = 'Цена фильтр: ';
+						  $_[ 'text_regular_price' ] = 'Обычная цена:';
+						  $_[ 'text_special_price' ] = 'Специальная цена:';]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--search END-->
+	
+	<!--product START-->
+	<file name="catalog/language/russian/product/product.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_search']       = 'Поиск';]]></search>
+			<add><![CDATA[$_[ 'text_rating_links' ] = 'Рейтинг-ссылки';
+						  $_[ 'text_add_to_cart' ] = 'Добавить в корзину';
+						  $_[ 'text_add_review' ] = 'Добавить отзыв';]]>
+			</add>
+		</operation>
+	</file>
+		
+	
+	<!--product END-->
+<!--product END-->
+<!--LANGUAGE russian END-->
+
+<!--LANGUAGE spanish START-->	
+<!--account START-->	
+	<!--wishlist START-->
+	<file name="catalog/language/spanish/account/wishlist.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['column_action'] = 'Acción';]]></search>
+			<add><![CDATA[$_['text_add_to_cart'] = 'Añadir a la cesta';
+						  $_[ 'text_product' ] = 'producto';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	<!--wishlist END-->
+	
+	<!--address START-->
+	<file name="catalog/language/spanish/account/address.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_default']     = 'Dirección por defecto:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Los campos requeridos';]]>
+			</add>
+		</operation>
+	</file>
+	<!--address END-->
+	
+	<!--edit START-->
+	<file name="catalog/language/spanish/account/edit.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_fax']        = 'Fax:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Los campos requeridos';]]>
+			</add>
+		</operation>
+	</file>
+	<!--edit END-->
+	
+	<!--order START-->
+	<file name="catalog/language/spanish/account/order.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['column_comment']        = 'Comentarios';]]></search>
+			<add><![CDATA[$_[ 'text_item_ordered' ] = 'artículos pedidos';
+						  $_[ 'text_view_order' ] = 'Ver pedido';
+						  $_[ 'text_reorder' ] = 'Reordenar';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	<!--order END-->
+	
+	<!--login START-->
+	<file name="catalog/language/spanish/account/login.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_password']               = 'Contraseña:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Los campos requeridos';]]>
+			</add>
+		</operation>
+	</file>
+	<!--login END-->
+	
+	<!--register START-->
+	<file name="catalog/language/spanish/account/register.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_confirm']        = 'Confirma contraseña:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Los campos requeridos';]]>
+			</add>
+		</operation>
+	</file>
+	<!--register END-->
+	
+	<!--password START-->
+	<file name="catalog/language/spanish/account/password.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_confirm']  = 'Confirmar contraseña:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Los campos requeridos';]]>
+			</add>
+		</operation>
+	</file>
+		
+	
+	<!--password END-->
+	
+	<!--return START-->
+	<file name="catalog/language/spanish/account/return.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['column_status']      = 'Estado';]]></search>
+			<add><![CDATA[$_[ 'text_view' ] = 'VISTA';
+						  $_[ 'text_product' ] = 'producto';
+						  $_[ 'text_enter_your_captch' ] = 'Ingrese su Captcha';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--return END-->
+	
+<!--account END-->	
+<!--affiliate START-->	
+	<!--payment START-->
+	<file name="catalog/language/spanish/affiliate/payment.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']             = 'Método de pago';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Los campos requeridos';]]>
+			</add>
+		</operation>
+	</file>
+	
+	
+	<!--payment END-->
+	
+	<!--tracking START-->
+	<file name="catalog/language/spanish/affiliate/tracking.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']    = 'Seguimiento de afiliados';]]></search>
+			<add><![CDATA[$_[ 'text_tracking_code' ] = 'Su código de seguimiento:';
+						  $_[ 'text_tracking_link' ] = 'Seguimiento de enlace:';
+						  $_[ 'text_tracking_link_generator' ] = 'GENERADOR DE ENLACE DE SEGUIMIENTO:';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	<!--tracking END-->
+	<!--edit START-->
+	<file name="catalog/language/spanish/affiliate/edit.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'Información de mi cuenta';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Los campos requeridos';]]>
+			</add>
+		</operation>
+	</file>
+	<!--edit END-->
+	
+	<!--password START-->
+	<file name="catalog/language/spanish/affiliate/password.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']  = 'Cambiar contraseña';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Los campos requeridos';]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--password END-->
+	
+	<!--login START-->
+	<file name="catalog/language/spanish/affiliate/login.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']                 = 'Programa de Afiliados';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Los campos requeridos';]]>
+			</add>
+		</operation>
+	</file>
+	<!--login END-->
+	
+<!--affiliate END-->
+
+<!--checkout START-->
+	<!--confirm  checkout START-->
+	<file name="catalog/language/spanish/checkout/checkout.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']                  = 'Compra';]]></search>
+			<add><![CDATA[$_[ 'text_product' ] = 'producto';
+						  $_[ 'text_newslatter' ] = 'hoja informativa';
+						  $_[ 'text_required_fields' ] = '* Los campos requeridos';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--confirm checkout END-->
+	
+<!--checkout END-->
+
+<!--Common START-->
+	<!--header START-->
+	<file name="catalog/language/spanish/spanish.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['code']                  = 'es';]]></search>
+			<add><![CDATA[$_[ 'text_home_latest' ] = 'más reciente';
+						  $_[ 'text_home_feature' ] = 'destacado';
+						  $_[ 'text_home_special' ] = 'Especiales';
+						  $_[ 'text_home_about_vigo_shop' ] = 'Acerca de Vigo Shop';
+						  $_[ 'text_home_our_history' ] = 'nuestra Historia';
+						  $_[ 'text_home_read_more' ] = 'Leer más';
+						  $_[ 'text_home_our_team' ] = 'Nuestro Equipo';
+						  $_['text_from_the_staff']  = 'Desde el Personal';
+						  $_['text_read_more']  = 'Leer más';
+						  $_['text_sorry_no_slider']  = 'Lo lamentamos, no deslizante.';
+						  $_['text_home_newslatter']  = 'hoja informativa';
+						  $_['text_home_sign_up_desc']  = 'Subscríbete para recibir ofertas exclusivas de sus marcas favoritas.';
+						  $_['text_home_sign_up']  = 'Regístrese';
+						  $_['text_home_enter_your_email_address']  = 'Ingrese su dirección de correo electrónico';
+			]]>
+			</add>
+		</operation>
+	</file>
+	
+	<file name="catalog/language/spanish/common/header.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_checkout']       = 'Realizar Pedido';]]></search>
+			<add><![CDATA[$_[ 'text_header_menu' ] = 'Menu';
+						 
+						  $_[ 'text_header_close' ] = 'cerca';
+						  $_[ 'text_header_menu' ] = 'Menu';
+						  $_['text_search']         = 'Busque aquí';
+						$_[ 'text_compare' ] = 'comparar';
+						$_['text_blogs']           = 'Blogs';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	
+	<!--header END-->
+	<!--footer START-->
+		<file name="catalog/language/spanish/common/footer.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_newsletter']   = 'Boletín de noticias';]]></search>
+			<add><![CDATA[$_[ 'text_footer_most_favorite' ] = 'La mayoría favorita';
+						  $_[ 'text_footer_quick_contact' ] = 'Contacto rápido';
+						  $_[ 'text_footer_enter_your_name' ] = 'Ingrese su Nombre';
+						  $_[ 'text_footer_enter_your_email' ] = 'Ingrese su E-mail';
+						  $_[ 'text_footer_enter_your_telephone' ] = 'Ingrese su Teléfono';
+						  $_[ 'text_footer_enter_your_message' ] = 'Introduzca su mensaje';
+						  $_[ 'text_footer_send_message' ] = 'Enviar mensaje';
+						  $_[ 'text_footer_facebook' ] = 'Facebook';
+						  $_[ 'text_footer_twitter' ] = 'Twitter';
+						  $_[ 'text_footer_rss' ] = 'RSS';
+						  $_[ 'text_footer_delicious' ] = 'Delicious';
+						  $_[ 'text_footer_linkedin' ] = 'Linkedin';
+						  $_[ 'text_footer_flickr' ] = 'Flickr';
+						  $_[ 'text_footer_skype' ] = 'Skype';
+						  $_[ 'text_footer_mail_to' ] = 'Mail to';
+						  $_['text_reward']        = 'Puntos de fidelidad'; 
+							$_['text_transaction'] = 'Transacciones';
+							$_['text_contactinfo']   = 'Contacto';
+							$_['text_downloads'] = 'Descargas';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--footer END-->
+<!--Common END-->
+
+<!--product START-->
+	<!--compare START-->
+	<file name="catalog/language/spanish/product/compare.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'Comparación de productos';]]></search>
+			<add><![CDATA[$_[ 'text_regular_price' ] = 'Precio regular:';
+						  $_[ 'text_special_price' ] = 'Precio Especial::';]]>
+			</add>
+		</operation>
+	</file>
+		
+	
+	<!--compare END-->
+	
+	<!--manufacturer START-->
+	<file name="catalog/language/spanish/product/manufacturer.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'Encuentra tu marca favorita';]]></search>
+			<add><![CDATA[$_[ 'text_price_filter' ] = 'filtro Precio: ';
+						  $_[ 'text_regular_price' ] = 'Precio regular:';
+						  $_[ 'text_special_price' ] = 'Precio Especial:';]]>
+			</add>
+		</operation>
+	</file>
+		
+
+	<!--manufacturer END-->
+	
+	<!--category START-->
+	<file name="catalog/language/spanish/product/category.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_refine']       = 'Refinar búsqueda';]]></search>
+			<add><![CDATA[$_[ 'text_price_filter' ] = 'filtro Precio: ';
+						  $_[ 'text_regular_price' ] = 'Precio regular:';
+						  $_[ 'text_special_price' ] = 'Precio Especial:';]]>
+			</add>
+		</operation>
+	</file>
+		
+
+	<!--category END-->
+	
+	<!--isitestimonial START-->
+	<file name="catalog/language/spanish/product/isitestimonial.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']  	= 'Formulario de Testimonios';]]></search>
+			<add><![CDATA[$_[ 'text_enter_your_name' ] = 'Ingrese su Nombre';
+						  $_[ 'text_enter_your_email' ] = 'Ingrese su E-mail';
+						  $_[ 'text_enter_your_city' ] = 'Ingresa tu ciudad';
+						  $_[ 'text_enter_your_captch' ] = 'Ingrese do Captcha';
+						  $_[ 'text_enter_your_subject' ] = 'Ingresa el asunto';
+						  $_[ 'text_enter_your_message' ] = 'Introduzca su mensaje';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+
+	<!--isitestimonial END-->
+	
+	<!--search START-->
+	<file name="catalog/language/spanish/product/search.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'Búsqueda';]]></search>
+			<add><![CDATA[$_[ 'text_price_filter' ] = 'filtro Precio: ';
+						  $_[ 'text_regular_price' ] = 'Precio regular:';
+						  $_[ 'text_special_price' ] = 'Precio Especial:';]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--search END-->
+	
+	<!--product START-->
+	<file name="catalog/language/spanish/product/product.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_search']       = 'Búsqueda';]]></search>
+			<add><![CDATA[$_[ 'text_rating_links' ] = 'Valoración de enlaces';
+						  $_[ 'text_add_to_cart' ] = 'Añadir a la cesta';
+						  $_[ 'text_add_review' ] = 'Añadir Comentario';]]>
+			</add>
+		</operation>
+	</file>
+		
+	
+	<!--product END-->
+<!--product END-->
+<!--LANGUAGE spanish END-->
+
+<!--LANGUAGE hungarian START-->	
+<!--account START-->	
+	<!--wishlist START-->
+	<file name="catalog/language/hungarian/account/wishlist.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['column_action'] = 'Action';]]></search>
+			<add><![CDATA[$_['text_add_to_cart'] = 'Kosárba';
+						  $_[ 'text_product' ] = 'termék';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	<!--wishlist END-->
+	
+	<!--address START-->
+	<file name="catalog/language/hungarian/account/address.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_default']     = 'Default Address:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Szükséges mezők';]]>
+			</add>
+		</operation>
+	</file>
+	<!--address END-->
+	
+	<!--edit START-->
+	<file name="catalog/language/hungarian/account/edit.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_fax']        = 'Fax:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Szükséges mezők';]]>
+			</add>
+		</operation>
+	</file>
+	<!--edit END-->
+	
+	<!--order START-->
+	<file name="catalog/language/hungarian/account/order.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['column_comment']        = 'Comment';]]></search>
+			<add><![CDATA[$_[ 'text_item_ordered' ] = 'megrendelt cikkek';
+						  $_[ 'text_view_order' ] = 'Megrendelés megtekintése';
+						  $_[ 'text_reorder' ] = 'átrendezése';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	<!--order END-->
+	
+	<!--login START-->
+	<file name="catalog/language/hungarian/account/login.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_password']               = 'Password:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Szükséges mezők';]]>
+			</add>
+		</operation>
+	</file>
+	<!--login END-->
+	
+	<!--register START-->
+	<file name="catalog/language/hungarian/account/register.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_confirm']        = 'Password Confirm:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Szükséges mezők';]]>
+			</add>
+		</operation>
+	</file>
+	<!--register END-->
+	
+	<!--password START-->
+	<file name="catalog/language/hungarian/account/password.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_confirm']  = 'Password Confirm:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Szükséges mezők';]]>
+			</add>
+		</operation>
+	</file>
+		
+	
+	<!--password END-->
+	
+	<!--return START-->
+	<file name="catalog/language/hungarian/account/return.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['column_status']      = 'Status';]]></search>
+			<add><![CDATA[$_[ 'text_view' ] = 'kilátás';
+						  $_[ 'text_product' ] = 'termék';
+						  $_[ 'text_enter_your_captch' ] = 'Adja meg Captcha';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--return END-->
+<!--account END-->	
+<!--affiliate START-->	
+	<!--payment START-->
+	<file name="catalog/language/hungarian/affiliate/payment.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']             = 'Payment Method';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Szükséges mezők';]]>
+			</add>
+		</operation>
+	</file>
+	
+	
+	<!--payment END-->
+	
+	<!--tracking START-->
+	<file name="catalog/language/hungarian/affiliate/tracking.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']    = 'Affiliate Tracking';]]></search>
+			<add><![CDATA[$_[ 'text_tracking_code' ] = 'Nyomon a KÓD:';
+						  $_[ 'text_tracking_link' ] = 'KÖVETŐ LINK:';
+						  $_[ 'text_tracking_link_generator' ] = 'KÖVETŐ LINK GENERATOR:';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	<!--tracking END-->
+	<!--edit START-->
+	<file name="catalog/language/hungarian/affiliate/edit.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'My Account Information';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Szükséges mezők';]]>
+			</add>
+		</operation>
+	</file>
+	<!--edit END-->
+	
+	<!--password START-->
+	<file name="catalog/language/hungarian/affiliate/password.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']  = 'Change Password';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Szükséges mezők';]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--password END-->
+	
+	<!--login START-->
+	<file name="catalog/language/hungarian/affiliate/login.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']                 = 'Affiliate Program';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* Szükséges mezők';]]>
+			</add>
+		</operation>
+	</file>
+	<!--login END-->
+	
+<!--affiliate END-->
+
+<!--checkout START-->
+	<!--confirm  checkout START-->
+	<file name="catalog/language/hungarian/checkout/checkout.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']                  = 'Checkout';]]></search>
+			<add><![CDATA[$_[ 'text_product' ] = 'termék';
+						  $_[ 'text_newslatter' ] = 'hírlevél';
+						  $_[ 'text_required_fields' ] = '* Szükséges mezők';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--confirm checkout END-->
+	
+<!--checkout END-->
+
+<!--Common START-->
+	<!--header START-->
+	<file name="catalog/language/hungarian/hungarian.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['code']                  = 'en';]]></search>
+			<add><![CDATA[$_[ 'text_home_latest' ] = 'legutolsó';
+						  $_[ 'text_home_feature' ] = 'jellegű';
+						  $_[ 'text_home_special' ] = 'Akciós termékek';
+						  $_[ 'text_home_about_vigo_shop' ] = 'Körülbelül Vigo Shop';
+						  $_[ 'text_home_our_history' ] = 'Történetünk';
+						  $_[ 'text_home_read_more' ] = 'Tovább';
+						  $_[ 'text_home_our_team' ] = 'Csapatunk';
+						  $_['text_from_the_staff']  = 'A személyzet';
+						  $_['text_read_more']  = 'Tovább';
+						  $_['text_sorry_no_slider']  = 'Sajnos, nem csúszik.';
+						  $_['text_home_newslatter']  = 'hírlevél';
+						  $_['text_home_sign_up_desc']  = 'Regisztrálj, hogy exkluzív ajánlatokat a kedvenc márkák.';
+						  $_['text_home_sign_up']  = 'Regisztráció';
+						  $_['text_home_enter_your_email_address']  = 'Adja meg e-mail címét';
+			]]>
+			</add>
+		</operation>
+	</file>
+	
+	<file name="catalog/language/hungarian/common/header.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_checkout']       = 'Checkout';]]></search>
+			<add><![CDATA[$_[ 'text_header_menu' ] = 'Étlap';
+						 
+						  $_[ 'text_header_close' ] = 'szorosan';
+						  $_[ 'text_header_menu' ] = 'Étlap';
+						  $_['text_search']         = 'Keresés itt';
+							$_[ 'text_compare' ] = 'összehasonlítása';
+							$_['text_blogs']           = 'Blogs';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	
+	<!--header END-->
+	<!--footer START-->
+		<file name="catalog/language/hungarian/common/footer.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_newsletter']   = 'hírlevél';]]></search>
+			<add><![CDATA[$_[ 'text_footer_most_favorite' ] = 'legkedveltebb';
+						  $_[ 'text_footer_quick_contact' ] = 'Gyors Kapcsolat';
+						  $_[ 'text_footer_enter_your_name' ] = 'Írja Ön neve';
+						  $_[ 'text_footer_enter_your_email' ] = 'Adja meg e-mail';
+						  $_[ 'text_footer_enter_your_telephone' ] = 'Adja meg telefonszámát';
+						  $_[ 'text_footer_enter_your_message' ] = 'Írja be az üzenetét';
+						  $_[ 'text_footer_send_message' ] = 'Üzenet küldése';
+						  $_[ 'text_footer_facebook' ] = 'Facebook';
+						  $_[ 'text_footer_twitter' ] = 'Twitter';
+						  $_[ 'text_footer_rss' ] = 'RSS';
+						  $_[ 'text_footer_delicious' ] = 'Delicious';
+						  $_[ 'text_footer_linkedin' ] = 'Linkedin';
+						  $_[ 'text_footer_flickr' ] = 'Flickr';
+						  $_[ 'text_footer_skype' ] = 'Skype';
+						  $_[ 'text_footer_mail_to' ] = 'Mail to';
+						  $_['text_reward']        = 'jutalom pontokat'; 
+							$_['text_transaction'] = 'Tranzakciók';
+							$_['text_contactinfo']   = 'Elérhetőség';
+							$_['text_downloads'] = 'Letöltések';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--footer END-->
+<!--Common END-->
+
+<!--product START-->
+	<!--compare START-->
+	<file name="catalog/language/hungarian/product/compare.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'termék Comparison';]]></search>
+			<add><![CDATA[$_[ 'text_regular_price' ] = 'Normál ár:';
+						  $_[ 'text_special_price' ] = 'Akciós ár::';]]>
+			</add>
+		</operation>
+	</file>
+		
+	
+	<!--compare END-->
+	
+	<!--manufacturer START-->
+	<file name="catalog/language/hungarian/product/manufacturer.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'Find Your Favorite Brand';]]></search>
+			<add><![CDATA[$_[ 'text_price_filter' ] = 'Ár szűrő: ';
+						  $_[ 'text_regular_price' ] = 'Normál ár:';
+						  $_[ 'text_special_price' ] = 'Akciós ár:';]]>
+			</add>
+		</operation>
+	</file>
+		
+
+	<!--manufacturer END-->
+	
+	<!--category START-->
+	<file name="catalog/language/hungarian/product/category.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_refine']       = 'Refine Search';]]></search>
+			<add><![CDATA[$_[ 'text_price_filter' ] = 'Ár szűrő: ';
+						  $_[ 'text_regular_price' ] = 'Normál ár:';
+						  $_[ 'text_special_price' ] = 'Akciós ár:';]]>
+			</add>
+		</operation>
+	</file>
+		
+
+	<!--category END-->
+	
+	<!--isitestimonial START-->
+	<file name="catalog/language/hungarian/product/isitestimonial.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']  	= 'Beszámolók Form';]]></search>
+			<add><![CDATA[$_[ 'text_enter_your_name' ] = 'Írja Ön neve';
+						  $_[ 'text_enter_your_email' ] = 'Adja meg e-mail';
+						  $_[ 'text_enter_your_city' ] = 'Adja meg a várost';
+						  $_[ 'text_enter_your_captch' ] = 'Adja meg Captcha';
+						  $_[ 'text_enter_your_subject' ] = 'Írd be a témát';
+						  $_[ 'text_enter_your_message' ] = 'Írja be az üzenetét';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+
+	<!--isitestimonial END-->
+	
+	<!--search START-->
+	<file name="catalog/language/hungarian/product/search.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'Search';]]></search>
+			<add><![CDATA[$_[ 'text_price_filter' ] = 'Ár szűrő: ';
+						  $_[ 'text_regular_price' ] = 'Normál ár:';
+						  $_[ 'text_special_price' ] = 'Akciós ár:';]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--search END-->
+	
+	<!--product START-->
+	<file name="catalog/language/hungarian/product/product.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_search']       = 'Search';]]></search>
+			<add><![CDATA[$_[ 'text_rating_links' ] = 'rating-links';
+						  $_[ 'text_add_to_cart' ] = 'Kosárba';
+						  $_[ 'text_add_review' ] = 'Értékelés hozzáadása';]]>
+			</add>
+		</operation>
+	</file>
+		
+	
+	<!--product END-->
+<!--product END-->
+<!--LANGUAGE hungarian END-->
+
+<!--LANGUAGE turkish START-->	
+<!--account START-->	
+	<!--wishlist START-->
+	<file name="catalog/language/turkish/account/wishlist.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['column_action'] = 'Action';]]></search>
+			<add><![CDATA[$_['text_add_to_cart'] = 'Sepete ekle';
+						  $_[ 'text_product' ] = 'ürün';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	<!--wishlist END-->
+	
+	<!--address START-->
+	<file name="catalog/language/turkish/account/address.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_default']     = 'Default Address:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* gerekli alanlar';]]>
+			</add>
+		</operation>
+	</file>
+	<!--address END-->
+	
+	<!--edit START-->
+	<file name="catalog/language/turkish/account/edit.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_fax']        = 'Fax:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* gerekli alanlar';]]>
+			</add>
+		</operation>
+	</file>
+	<!--edit END-->
+	
+	<!--order START-->
+	<file name="catalog/language/turkish/account/order.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['column_comment']        = 'Comment';]]></search>
+			<add><![CDATA[$_[ 'text_item_ordered' ] = 'Sıralı öğeler';
+						  $_[ 'text_view_order' ] = 'Siparişi Görüntüle';
+						  $_[ 'text_reorder' ] = 'yeniden sıralayın';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	<!--order END-->
+	
+	<!--login START-->
+	<file name="catalog/language/turkish/account/login.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_password']               = 'Password:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* gerekli alanlar';]]>
+			</add>
+		</operation>
+	</file>
+	<!--login END-->
+	
+	<!--register START-->
+	<file name="catalog/language/turkish/account/register.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_confirm']        = 'Password Confirm:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* gerekli alanlar';]]>
+			</add>
+		</operation>
+	</file>
+	<!--register END-->
+	
+	<!--password START-->
+	<file name="catalog/language/turkish/account/password.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['entry_confirm']  = 'Password Confirm:';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* gerekli alanlar';]]>
+			</add>
+		</operation>
+	</file>
+		
+	
+	<!--password END-->
+	
+	<!--return START-->
+	<file name="catalog/language/turkish/account/return.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['column_status']      = 'Status';]]></search>
+			<add><![CDATA[$_[ 'text_view' ] = 'GÖRÜNÜM';
+						  $_[ 'text_product' ] = 'ürün';
+						  $_[ 'text_enter_your_captch' ] = 'Sizin captcha girmek';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--return END-->
+	
+<!--account END-->	
+<!--affiliate START-->	
+	<!--payment START-->
+	<file name="catalog/language/turkish/affiliate/payment.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']             = 'Payment Method';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* gerekli alanlar';]]>
+			</add>
+		</operation>
+	</file>
+	
+	
+	<!--payment END-->
+	
+	<!--tracking START-->
+	<file name="catalog/language/turkish/affiliate/tracking.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']    = 'Affiliate Tracking';]]></search>
+			<add><![CDATA[$_[ 'text_tracking_code' ] = 'SİZİN İZLEME KODU:';
+						  $_[ 'text_tracking_link' ] = 'TAKİP LINK:';
+						  $_[ 'text_tracking_link_generator' ] = 'TAKİP LINK JENERATÖR:';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	<!--tracking END-->
+	<!--edit START-->
+	<file name="catalog/language/turkish/affiliate/edit.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'My Account Information';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* gerekli alanlar';]]>
+			</add>
+		</operation>
+	</file>
+	<!--edit END-->
+	
+	<!--password START-->
+	<file name="catalog/language/turkish/affiliate/password.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']  = 'Change Password';]]></search>
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* gerekli alanlar';]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--password END-->
+	
+	<!--login START-->
+	<file name="catalog/language/turkish/affiliate/login.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']                 = 'Affiliate Program';]]></search>
+
+			<add><![CDATA[$_[ 'text_required_fields' ] = '* gerekli alanlar';]]>
+			</add>
+		</operation>
+	</file>
+	<!--login END-->
+	
+<!--affiliate END-->
+
+<!--checkout START-->
+	<!--confirm  checkout START-->
+	<file name="catalog/language/turkish/checkout/checkout.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']                  = 'Checkout';]]></search>
+			<add><![CDATA[$_[ 'text_product' ] = 'ürün';
+						  $_[ 'text_newslatter' ] = 'Bülten';
+						  $_[ 'text_required_fields' ] = '* gerekli alanlar';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--confirm checkout END-->
+	
+<!--checkout END-->
+
+<!--Common START-->
+	<!--header START-->
+	<file name="catalog/language/turkish/turkish.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['code']                  = 'en';]]></search>
+			<add><![CDATA[$_[ 'text_home_latest' ] = 'son';
+						  $_[ 'text_home_feature' ] = 'Öne';
+						  $_[ 'text_home_special' ] = 'Kampanyalar';
+						  $_[ 'text_home_about_vigo_shop' ] = 'Vigo Dükkanı Hakkında';
+						  $_[ 'text_home_our_history' ] = 'Tarihçe';
+						  $_[ 'text_home_read_more' ] = 'Devamı';
+						  $_[ 'text_home_our_team' ] = 'Ekibimiz';
+						  $_['text_from_the_staff']  = 'Ekibinden';
+						  $_['text_read_more']  = 'Devamı';
+						  $_['text_sorry_no_slider']  = 'Üzgünüz, kaymak.';
+						  $_['text_home_newslatter']  = 'Bülten';
+						  $_['text_home_sign_up_desc']  = 'En sevdiğiniz markalardan özel teklif almak kadar şarkı.';
+						  $_['text_home_sign_up']  = 'kaydolmak';
+						  $_['text_home_enter_your_email_address']  = 'E-posta adresinizi girin';
+			]]>
+			</add>
+		</operation>
+	</file>
+	
+	<file name="catalog/language/turkish/common/header.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_checkout']       = 'Checkout';]]></search>
+			<add><![CDATA[$_[ 'text_header_menu' ] = 'Menu';
+						 
+						  $_[ 'text_header_close' ] = 'yakın';
+						  $_[ 'text_header_menu' ] = 'Menu';
+						  $_['text_search']         = 'burada ara';
+						$_[ 'text_compare' ] = 'karşılaştırmak';
+						$_['text_blogs']           = 'Bloglar';
+						  
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	
+	<!--header END-->
+	<!--footer START-->
+		<file name="catalog/language/turkish/common/footer.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_newsletter']   = 'Bülten';]]></search>
+			<add><![CDATA[$_[ 'text_footer_most_favorite' ] = 'en sevdiğim';
+						  $_[ 'text_footer_quick_contact' ] = 'Hızlı İletişim';
+						  $_[ 'text_footer_enter_your_name' ] = 'İsminizi Girin';
+						  $_[ 'text_footer_enter_your_email' ] = 'E-posta girin';
+						  $_[ 'text_footer_enter_your_telephone' ] = 'Sizin Telefon Girin';
+						  $_[ 'text_footer_enter_your_message' ] = 'Sizin Mesajınızı girin';
+						  $_[ 'text_footer_send_message' ] = 'Mesaj gönder';
+						  $_[ 'text_footer_facebook' ] = 'Facebook';
+						  $_[ 'text_footer_twitter' ] = 'Twitter';
+						  $_[ 'text_footer_rss' ] = 'RSS';
+						  $_[ 'text_footer_delicious' ] = 'Delicious';
+						  $_[ 'text_footer_linkedin' ] = 'Linkedin';
+						  $_[ 'text_footer_flickr' ] = 'Flickr';
+						  $_[ 'text_footer_skype' ] = 'Skype';
+						  $_[ 'text_footer_mail_to' ] = 'Mail to';
+						  $_['text_reward']        = 'ödül Puan'; 
+						$_['text_transaction'] = 'işlemler';
+						$_['text_contactinfo']   = 'İletişim Bilgileri';
+						$_['text_downloads'] = 'Yüklemeler';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--footer END-->
+<!--Common END-->
+
+<!--product START-->
+	<!--compare START-->
+	<file name="catalog/language/turkish/product/compare.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'ürün Comparison';]]></search>
+			<add><![CDATA[$_[ 'text_regular_price' ] = 'normal Fiyat:';
+						  $_[ 'text_special_price' ] = 'özel Fiyat::';]]>
+			</add>
+		</operation>
+	</file>
+		
+	
+	<!--compare END-->
+	
+	<!--manufacturer START-->
+	<file name="catalog/language/turkish/product/manufacturer.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'Find Your Favorite Brand';]]></search>
+			<add><![CDATA[$_[ 'text_price_filter' ] = 'Fiyat filtre: ';
+						  $_[ 'text_regular_price' ] = 'normal Fiyat:';
+						  $_[ 'text_special_price' ] = 'özel Fiyat:';]]>
+			</add>
+		</operation>
+	</file>
+		
+
+	<!--manufacturer END-->
+	
+	<!--category START-->
+	<file name="catalog/language/turkish/product/category.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_refine']       = 'Refine Search';]]></search>
+			<add><![CDATA[$_[ 'text_price_filter' ] = 'Fiyat filtre: ';
+						  $_[ 'text_regular_price' ] = 'normal Fiyat:';
+						  $_[ 'text_special_price' ] = 'özel Fiyat:';]]>
+			</add>
+		</operation>
+	</file>
+		
+
+	<!--category END-->
+	
+	<!--isitestimonial START-->
+	<file name="catalog/language/turkish/product/isitestimonial.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']  	= 'bonservis Formu';]]></search>
+			<add><![CDATA[$_[ 'text_enter_your_name' ] = 'İsminizi Girin';
+						  $_[ 'text_enter_your_email' ] = 'E-posta girin';
+						  $_[ 'text_enter_your_city' ] = 'Sizin şehir girin';
+						  $_[ 'text_enter_your_captch' ] = 'Sizin captcha girmek';
+						  $_[ 'text_enter_your_subject' ] = 'Sizin Konu Girin';
+						  $_[ 'text_enter_your_message' ] = 'Sizin Mesajınızı girin';
+						  ]]>
+			</add>
+		</operation>
+	</file>
+
+	<!--isitestimonial END-->
+	
+	<!--search START-->
+	<file name="catalog/language/turkish/product/search.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['heading_title']     = 'Search';]]></search>
+			<add><![CDATA[$_[ 'text_price_filter' ] = 'Fiyat filtre: ';
+						  $_[ 'text_regular_price' ] = 'normal Fiyat:';
+						  $_[ 'text_special_price' ] = 'özel Fiyat:';]]>
+			</add>
+		</operation>
+	</file>
+	
+	<!--search END-->
+	
+	<!--product START-->
+	<file name="catalog/language/turkish/product/product.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_search']       = 'Search';]]></search>
+			<add><![CDATA[$_[ 'text_rating_links' ] = 'rating-bağlantılar';
+						  $_[ 'text_add_to_cart' ] = 'Sepete ekle';
+						  $_[ 'text_add_review' ] = 'Yorum ekle';]]>
+			</add>
+		</operation>
+	</file>
+		
+	
+	<!--product END-->
+<!--product END-->
+<!--LANGUAGE turkish END-->
+
+	
+<!--Admin side vigo and pav black file start-->
+<file name="/admin/language/chinese/common/header.php">
+	<operation>
+		<search position="before" error="log"><![CDATA[$_['text_recurring_profile']           = '循环支付';]]></search>
+			<add><![CDATA[$_['text_vigo_configuration']    = 'VIGO组态';
+						  $_['text_vigo_slider']           = 'VIGO 滑块';
+						  $_['text_vigo_banner']           = 'VIGO 旗帜';
+						  $_['text_vigo_color']           = 'VIGO 颜色';
+						    $_['text_vigo']           = 'VIGO';
+						  ]]></add>
+	</operation>
+</file>
+
+<file name="/admin/language/arabic/common/header.php">
+	<operation>
+		<search position="before" error="log"><![CDATA[$_['text_zone']                        = 'المناطق';]]></search>
+			<add><![CDATA[$_['text_vigo_configuration']    = 'VIGO ترتيب';
+						  $_['text_vigo_slider']           = 'VIGO المنزلق';
+						  $_['text_vigo_banner']           = 'VIGO راية';
+						  $_['text_vigo_color']           = 'VIGO لون';
+						    $_['text_vigo']           = 'VIGO';
+						  ]]></add>
+	</operation>
+</file>
+
+<file name="/admin/language/dutch/common/header.php">
+	<operation>
+		<search position="before" error="log"><![CDATA[$_['text_profile']                     = 'profielen';]]></search>
+			<add><![CDATA[$_['text_vigo_configuration']    = 'VIGO configuratie';
+						  $_['text_vigo_slider']           = 'VIGO schuif';
+						  $_['text_vigo_banner']           = 'VIGO banier';
+						  $_['text_vigo_color']           = 'VIGO kleur';
+						    $_['text_vigo']           = 'VIGO';
+						  ]]></add>
+	</operation>
+</file>
+
+<file name="/admin/language/french/common/header.php">
+	<operation>
+		<search position="before" error="log"><![CDATA[$_['text_zone']							= 'Zones';]]></search>
+			<add><![CDATA[$_['text_vigo_configuration']    = 'VIGO configuration';
+						  $_['text_vigo_slider']           = 'VIGO curseur';
+						  $_['text_vigo_banner']           = 'VIGO bannière';
+						  $_['text_vigo_color']           = 'VIGO couleur';
+                          $_['text_vigo']           = 'VIGO';
+						  ]]></add>
+	</operation>
+</file>
+
+<file name="/admin/language/german/common/header.php">
+	<operation>
+		<search position="before" error="log"><![CDATA[$_['text_manager']                     = 'Manager für Erweiterungen';]]></search>
+			<add><![CDATA[$_['text_vigo_configuration']    = 'VIGO Konfiguration';
+						  $_['text_vigo_slider']           = 'VIGO Slider';
+						  $_['text_vigo_banner']           = 'VIGO Banner';
+						  $_['text_vigo_color']           = 'VIGO Farbe';
+						    $_['text_vigo']           = 'VIGO';
+						  ]]></add>
+	</operation>
+</file>
+
+<file name="/admin/language/greek/common/header.php">
+	<operation>
+		<search position="before" error="log"><![CDATA[$_['text_zone']                        = 'Ζώνες';]]></search>
+			<add><![CDATA[$_['text_vigo_configuration']    = 'VIGO διαμόρφωση';
+						  $_['text_vigo_slider']           = 'VIGO ολισθητής';
+						  $_['text_vigo_banner']           = 'VIGO λάβαρο';
+						  $_['text_vigo_color']           = 'VIGO χρώμα';
+						    $_['text_vigo']           = 'VIGO';
+						  ]]></add>
+	</operation>
+</file>
+
+<file name="/admin/language/italian/common/header.php">
+	<operation>
+		<search position="before" error="log"><![CDATA[$_['text_zone']              = 'Zone';]]></search>
+			<add><![CDATA[$_['text_vigo_configuration']    = 'VIGO configurazione';
+						  $_['text_vigo_slider']           = 'VIGO Slider';
+						  $_['text_vigo_banner']           = 'VIGO bandiera';
+						  $_['text_vigo_color']           = 'VIGO Colore';
+						    $_['text_vigo']           = 'VIGO';
+						  ]]></add>
+	</operation>
+</file>
+
+<file name="/admin/language/japanese/common/header.php">
+	<operation>
+		<search position="before" error="log"><![CDATA[$_['text_zone']                        = '地域';]]></search>
+			<add><![CDATA[$_['text_vigo_configuration']    = 'VIGO 設定';
+						  $_['text_vigo_slider']           = 'VIGO スライダー';
+						  $_['text_vigo_banner']           = 'VIGO バナー';
+						  $_['text_vigo_color']           = 'VIGO カラー';
+						    $_['text_vigo']           = 'VIGO';
+						  ]]></add>
+	</operation>
+</file>
+
+<file name="/admin/language/russian/common/header.php">
+	<operation>
+		<search position="before" error="log"><![CDATA[$_['text_zone']                        = 'Регионы';]]></search>
+			<add><![CDATA[$_['text_vigo_configuration']    = 'VIGO конфигурация';
+						  $_['text_vigo_slider']           = 'VIGO ползунок';
+						  $_['text_vigo_banner']           = 'VIGO баннер';
+						  $_['text_vigo_color']           = 'VIGO цвет';
+						    $_['text_vigo']           = 'VIGO';
+						  ]]></add>
+	</operation>
+</file>
+
+<file name="/admin/language/spanish/common/header.php">
+	<operation>
+		<search position="before" error="log"><![CDATA[$_['text_zone']                        = 'Zonas';]]></search>
+			<add><![CDATA[$_['text_vigo_configuration']    = 'VIGO configuración';
+						  $_['text_vigo_slider']           = 'VIGO Deslizador';
+						  $_['text_vigo_banner']           = 'VIGO bandera';
+						  $_['text_vigo_color']           = 'VIGO Color';
+						    $_['text_vigo']           = 'VIGO';
+						  ]]></add>
+	</operation>
+</file>
+
+
+<!--Admin side vigo and pav black file end-->		
+</modification>

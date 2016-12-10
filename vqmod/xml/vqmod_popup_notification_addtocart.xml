@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+
+	<id>Pop-Up Notification AddToCart</id>
+	<version>1.0.0</version>
+	<vqmver>2.5.1</vqmver>
+	<author>MojeGalanterka.cz</author>
+
+	<file name="catalog/controller/checkout/cart.php">
+		<operation>
+			<search position="replace"><![CDATA[$json['success'] = sprintf($this->language->get('text_success'), $this->url->link('product/product', 'product_id=' . $this->request->post['product_id']), $product_info['name'], $this->url->link('checkout/cart'));]]></search>
+			<add><![CDATA[
+			/* Notification AddToCart */
+			$this->load->model('tool/image');
+			if ($product_info['image']) {
+				$image = $this->model_tool_image->resize($product_info['image'], $this->config->get('config_image_cart_width'), $this->config->get('config_image_cart_height'));
+			} else {
+				$image = '';
+			}
+			$json['success'] = sprintf($this->language->get('text_success'), $this->url->link('product/product', 'product_id=' . $this->request->post['product_id']), $image, $product_info['name'], $this->url->link('checkout/cart'));
+			]]></add>
+		</operation>
+	</file>
+
+	<file name="catalog/language/*/checkout/cart.php">
+		<operation>
+			<search position="before"><![CDATA[?>]]></search>
+			<add><![CDATA[
+			/* Notification AddToCart */
+			$_['text_success'] = '<div class="title">Zboží bylo přidáno do košíku</div><div class="content"><a href="%s"><img src="%s"><span class="name">%s</span></a><br class="clear" /><a href="%s" class="button">Zobrazit košík</a> <br class="clear" /></div>';
+			]]></add>
+		</operation>
+	</file>
+
+  <file name="catalog/view/theme/*/template/common/header.tpl">
+		<operation>
+      <search position="before"><![CDATA[<?php foreach ($styles as $style) { ?>]]></search>
+			<add><![CDATA[<link rel="stylesheet" type="text/css" href="catalog/view/theme/<?php echo $this->config->get('config_template'); ?>/stylesheet/popup_notification_addtocart.min.css" />]]></add>
+		</operation>
+	</file>
+
+</modification>

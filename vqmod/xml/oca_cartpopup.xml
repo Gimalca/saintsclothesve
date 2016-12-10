@@ -1,0 +1,42 @@
+<modification>
+    <id>OCA_Cart Popup(v1.5.x)</id>
+    <version>1.2</version>
+    <vqmver>2.1.1</vqmver>
+    <author>Joel - http://opencartaddons.com - webmaster@opencartaddons.com</author>
+	<file name="catalog/view/theme/*/template/product/product.tpl">
+        <!-- OpenCart v1.5.0 - v1.5.1.3 -->
+		<operation error="skip">
+            <search position="after"><![CDATA[
+            	$('#cart_total').html(json['total']);
+            ]]></search>
+            <add><![CDATA[
+            	$('#cart').addClass('active');
+		
+				$.ajax({
+					url: 'index.php?route=checkout/cart/update',
+					dataType: 'json',
+					success: function(json) {
+						if (json['output']) {
+							$('#cart .content').html(json['output']);
+						}
+					}
+				});	
+		
+				setTimeout(function() {$('#cart').removeClass('active');}, 5000);
+            ]]></add>
+        </operation>
+		<!-- OpenCart v1.5.2 - v1.5.3.1 -->
+		<operation error="skip">
+            <search position="after"><![CDATA[
+            	$('#cart-total').html(json['total']);
+            ]]></search>
+            <add><![CDATA[
+            	$('#cart').addClass('active');
+		
+				$('#cart').load('index.php?route=module/cart #cart > *');
+		
+				setTimeout(function() {$('#cart').removeClass('active');}, 5000);
+            ]]></add>
+        </operation>
+	</file>
+</modification>

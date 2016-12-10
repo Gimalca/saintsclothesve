@@ -1,0 +1,63 @@
+/* notifications (dreamtheme) */
+#notification {
+  margin: -50px 0px 0px -300px;
+  position: fixed;
+  left: 50%;
+  top: 50%;  
+  z-index: 1001;
+}
+#notification .success {
+  border: #dddddd 1px solid;  
+}
+#notification > div {
+  background-color: #f5f5f5;
+  background-image: none;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 30px 0px;
+  min-height: 120px;
+  overflow: hidden;
+  padding: 0px;
+  /*
+  border-radius: 0px;
+  -khtml-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  */  	
+}
+#notification > div > .close {
+  cursor: pointer;
+  float: right;
+  margin-top: 3px;  
+}
+#notification > div .close {
+  display: block;
+  float: right;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+#notification > div .title {
+  border-bottom: 1px solid #dddddd;
+  color: #333333;
+  font-weight: bold;    
+  padding: 15px;
+  text-transform: uppercase;  
+}
+#notification > div .content {
+  background: #ffffff;
+  padding: 15px;
+}
+#notification > div .content img {
+  float: left;
+  margin-right: 15px;
+}
+#notification > div .content .name {  
+  color: #333;
+  margin-bottom: 20px;
+  /* text-transform: uppercase; */
+}
+#notification > div .content a {  
+  text-decoration: none;
+}
+#notification > div .content .button {  
+  margin: 15px 0px 15px 0px;
+}

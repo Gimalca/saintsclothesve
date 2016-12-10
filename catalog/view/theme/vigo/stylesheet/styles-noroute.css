@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+.page {
+    background: none !important;
+}
+.error-area {
+    display:block;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+.error-area .error-img {
+    float: left;
+    width: 45%;
+    padding: 0 50px;
+}
+.error-area .error-img img { width: 100%; }
+.error-area .error-content {
+    float: right;
+    width: 55%;
+    padding: 120px 40px;
+}
+.error-area .error-content h2 { font-family: 'Scada'; font-size: 70px; font-weight: normal; color: #2a2a2a; }
+.error-area .error-content h3 { font-family: 'Source Code Pro'; font-size: 30px; font-weight: normal; color: #2a2a2a; margin-bottom: 15px; }
+.error-area .error-content p { font-family: Verdana; font-size: 18px; font-weight: normal; color: #777; margin-bottom: 15px; }
+.error-area .form-search label { display: none; }
+.error-area .form-search input.input-text { height: 50px; width: 80%; border: 2px solid #ccc; border-radius: 3px; font-family: 'Scada'; font-weight: normal; font-size: 18px; color: #a3a3a3; padding: 15px 20px; padding-right: 50px; }
+.error-area .form-search button.button { width: 50px; height: 50px; background: url(../images/error_search.png) 17px 18px no-repeat; margin-left: -55px; }
+
+@media (min-width: 992px) and (max-width: 1200px){
+    .error-area .error-content { padding: 100px 35px; }
+    .error-area .error-content h2 { font-size: 65px; }
+    .error-area .error-content h3 { font-size: 27px; }
+    .error-area .error-content p { font-size: 18px; }
+}
+
+@media (max-width: 991px){
+    .error-area .error-content { padding: 70px 30px; }
+    .error-area .error-content h2 { font-size: 50px; }
+    .error-area .error-content h3 { font-size: 18px; margin-bottom: 10px; }
+    .error-area .error-content p { font-size: 14px; margin-bottom: 10px; }
+}
+
+@media (max-width: 767px) {
+    .error-area .error-content { padding: 40px 0; float: none; width: 270px; margin: 0 auto; }
+    .error-area .error-img { float: none; width: 270px; margin: 0 auto; padding: 0; }
+    .error-area .error-content h2 { font-size: 30px; }
+    .error-area .error-content h3 { font-size: 15px; margin-bottom: 10px; }
+    .error-area .error-content p { font-size: 12px; margin-bottom: 10px; width: 100%; }
+    .error-area .form-search input.input-text { height: 30px; font-size: 14px; padding: 10px; padding-right: 30px; border-width: 1px; }
+    .error-area .form-search button.button { width: 30px; height: 30px; background-position: 8px 8px; margin-left: -35px; }
+}

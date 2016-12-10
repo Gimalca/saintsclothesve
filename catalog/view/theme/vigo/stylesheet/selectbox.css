@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+
+.selectbox {
+	vertical-align: middle;
+	cursor: pointer;
+    margin-top: 0px;
+    z-index: 1;
+}
+.selectbox .select {
+	height: 32px;
+	padding: 0 30px 0 10px;
+	font: 10px ;
+	color: #fff;
+}
+.selectbox:hover .select {
+	background-color: #000;
+	background-position: 0 -10px;
+    color: #fff;
+}
+.selectbox .select:active {
+	background: #000;
+	box-shadow: inset 0 1px 3px rgba(0,0,0,0.15);
+}
+.selectbox.focused .select {
+	border: 1px solid #000;
+}
+.selectbox .select .text {
+	display: block;
+	width: 100%;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+        line-height: 3;
+        text-transform: uppercase;
+}
+.selectbox .select .text img {
+    margin: 11px 6px 0 0;
+    display: inline-block;
+    width: 16px;
+    height: 11px;
+}
+
+.selectbox .trigger {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 34px;
+	height: 100%;
+}
+.selectbox .trigger .arrow {
+    background: url(../images/dd_arrow.png) center 9px no-repeat;
+    width: 100%;
+    height: 60%;
+    margin-top: 5px;
+    display: block;
+}
+.selectbox:hover .arrow { background-position: center -6px; }
+.selectbox .dropdown {
+	top: auto;
+	margin: 0;
+	padding: 4px 0;
+	background: #fff;
+	box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    text-align: left;
+}
+.selectbox ul { margin-bottom: 0; }
+.selectbox li {
+	padding: 5px 10px 6px;
+	color: #fff;
+    display: block;
+    transition: background-color 200ms ease-in-out; -webkit-transition: background-color 200ms ease-in-out; -moz-transition: background-color 200ms ease-in-out; -o-transition: background-color 200ms ease-in-out;
+}
+.selectbox li:hover {
+	background: #222;
+	color: #fff;
+}
+.selectbox li.disabled {
+	
+}
+.selectbox li.disabled:hover {
+	
+}
+.selectbox li a { color: #555; text-decoration: none; display: block; padding: 0; background-color: transparent; border: 0; border-radius: 0; }
+.selectbox li a:hover {background-color: transparent;color: #fff;}
+.selectbox li a img {
+    margin: 4px 6px 0 0;
+    display: inline-block;
+    width: 16px;
+    height: 11px;
+}
+
+
+
+.selectbox.default .select { height: 30px; padding: 0 28px 0 0; color: #000; line-height: 28px; background-color: transparent; }
+.selectbox.default:hover .select { background-color: transparent; }
+.selectbox.default .select .text {
+    padding: 0 10px;
+    border: 0px solid #000;
+}
+.selectbox.default .trigger {
+    border: 0px solid #000;
+    width: 27px;
+    height: 30px;
+}
+.selectbox.default:hover .trigger {
+    border: 0px solid #000;
+}
+.selectbox.default .trigger .arrow {
+    margin-top: 4px;
+}
+.selectbox.default:hover .trigger .arrow {
+    background-position: center 8px;
+}

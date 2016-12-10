@@ -1,0 +1,16 @@
+User-agent: *
+Disallow: /index.php?route=information/contact
+Disallow: /index.php?route=account/login
+Disallow: /index.php?route=account/accounts
+Disallow: /index.php?route=checkout/cart
+Disallow: /index.php?route=checkout/checkout
+Disallow: /index.php?route=account/edit
+Disallow: /index.php?route=account/password
+Disallow: /index.php?route=account/address
+Disallow: /index.php?route=account/wishlist
+Disallow: /index.php?route=account/order
+Disallow: /index.php?route=account/return
+Disallow: /index.php?route=account/transaction
+Disallow: /index.php?route=account/newsletter
+Disallow: /index.php?route=account/recurring
+Disallow: /index.php?route=account/logout

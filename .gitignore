@@ -1,0 +1,12 @@
+/image/cache/
+/nbproject/private/
+/system/cache/
+/vqmod/logs/
+config.php
+/admin/config.php
+/system/logs/
+/.settings/
+/deployment.properties
+/deployment.xml
+/image/
+/vqmod/vqcache/

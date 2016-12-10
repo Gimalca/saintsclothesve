@@ -1,0 +1,259 @@
+.talla_box th {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.talla_box td {
+    text-align: center;
+}
+
+.talla_box h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.talla_box .h1 {
+    font-size: 2.talla_box .57em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.talla_box .h2 {
+    font-size: 2.talla_box .15em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.talla_box .h3 {
+    font-size: 1.talla_box .72em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.talla_box .h4 {
+    font-size: 1.talla_box .28em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.talla_box .h5 {
+    font-size: 1em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.talla_box .h6 {
+    font-size: 0.talla_box .86em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.talla_box .h1-arial {
+    font-size: 2.talla_box .57em;
+    font-family: "Arial", sans-serif;
+}
+
+.talla_box .h2-arial {
+    font-size: 2.talla_box .15em;
+    font-family: "Arial", sans-serif;
+}
+
+.talla_box .h3-arial {
+    font-size: 1.talla_box .72em;
+    font-family: "Arial", sans-serif;
+}
+
+.talla_box .h4-arial {
+    font-size: 1.talla_box .28em;
+    font-family: "Arial", sans-serif;
+}
+
+.talla_box .h5-arial {
+    font-size: 1em;
+    font-family: "Arial", sans-serif;
+}
+
+.talla_box .h6-arial {
+    font-size: 0.talla_box .86em;
+    font-family: "Arial", sans-serif;
+}
+
+text-light{
+    font-weight: 300;
+}
+
+text-normal{
+    font-weight: 400;
+}
+
+.talla_box .table > thead > tr > th {
+    border-bottom: 1px solid #000000;
+}
+
+.talla_box .text-gray{
+    color: gray;
+}
+
+.talla_box .pushdown-10{
+    margin-bottom: 10px;
+}
+.talla_box .pushup-10{
+    margin-top: 10px;
+}
+.talla_box .pushright-10{
+    margin-right: 10px;
+}
+.talla_box .pushleft-10{
+    margin-left: 10px;
+}
+
+.talla_box .pushdown-20{
+    margin-bottom: 20px;
+}
+.talla_box .pushup-20{
+    margin-top: 20px;
+}
+.talla_box .pushright-20{
+    margin-right: 20px;
+}
+.talla_box .pushleft-20{
+    margin-left: 20px;
+}
+
+.talla_box .pushdown-30{
+    margin-bottom: 30px;
+}
+.talla_box .pushup-30{
+    margin-top: 30px;
+}
+.talla_box .pushright-30{
+    margin-right: 10px;
+}
+.talla_box .pushleft-30{
+    margin-left: 30px;
+}
+
+.talla_box .pushdown-40{
+    margin-bottom: 40px;
+}
+.talla_box .pushup-40{
+    margin-top: 40px;
+}
+.talla_box .pushright-40{
+    margin-right: 40px;
+}
+.talla_box .pushleft-40{
+    margin-left: 40px;
+}
+
+.talla_box .pushdown-50{
+    margin-bottom: 50px;
+}
+.talla_box .pushup-50{
+    margin-top: 50px;
+}
+.talla_box .pushright-50{
+    margin-right: 50px;
+}
+.talla_box .pushleft-50{
+    margin-left: 50px;
+}
+
+.talla_box .pulldown-10{
+    margin-bottom: -10px;
+}
+.talla_box .pullup-10{
+    margin-top: -10px;
+}
+.talla_box .pullright-10{
+    margin-right: -10px;
+}
+.talla_box .pullleft-10{
+    margin-left: -10px;
+}
+
+.talla_box .pulldown-15{
+    margin-bottom: -15px;
+}
+.talla_box .pullup-15{
+    margin-top: -15px;
+}
+.talla_box .pullright-15{
+    margin-right: -15px;
+}
+.talla_box .pullleft-15{
+    margin-left: -15px;
+}
+
+.talla_box .pulldown-20{
+    margin-bottom: -20px;
+}
+.talla_box .pullup-20{
+    margin-top: -20px;
+}
+.talla_box .pullright-20{
+    margin-right: -20px;
+}
+.talla_box .pullleft-20{
+    margin-left: -20px;
+}
+
+.talla_box .pulldown-25{
+    margin-bottom: -25px;
+}
+.talla_box .pullup-25{
+    margin-top: -25px;
+}
+.talla_box .pullright-25{
+    margin-right: -25px;
+}
+.talla_box .pullleft-25{
+    margin-left: -25px;
+}
+
+.talla_box .pulldown-30{
+    margin-bottom: -30px;
+}
+.talla_box .pullup-30{
+    margin-top: -30px;
+}
+.talla_box .pullright-30{
+    margin-right: -30px;
+}
+.talla_box .pullleft-30{
+    margin-left: -30px;
+}
+.talla_box .inline-block{
+    display: inline-block;
+}
+.talla_box .icon{
+    width: 2.talla_box .5em;
+    border: 1px solid #000;
+    padding: .talla_box .3em;
+}
+
+.talla_box .list-unstyled{
+    text-align: left;
+    line-height: 3.talla_box .5em;
+}
+.talla_box .list-unstyled li {
+    margin-bottom: 10px;
+}
+.talla_box .container-box{
+    border: 1px solid #000;
+    padding: 2em;
+}
+
+.talla_box .img-responsive-70{
+    width: 70%;
+}
+
+.talla_box .descriptive{
+    font-family: 'arial', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.talla_box .explicacion{
+    width: 94%;
+    margin: 0 auto;
+    padding: 20px 30px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    
+}
