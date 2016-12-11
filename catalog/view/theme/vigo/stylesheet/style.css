@@ -1199,7 +1199,7 @@ tr.summary-details-excluded { font-style:italic; }
 
 .nav-container { border-bottom: 1px solid #e5e5e5; box-shadow: 0 2px 2px #eee; -webkit-box-shadow: 0 2px 2px #eee; -moz-box-shadow: 0 2px 2px #eee; }
 
-#nav_custom { font-size: 14px; display: block; max-width: 370px;  margin: 0 auto;}
+#nav_custom {font-size: 14px;display: block;/* max-width: 370px; */margin: 0 auto;}
 
 
 

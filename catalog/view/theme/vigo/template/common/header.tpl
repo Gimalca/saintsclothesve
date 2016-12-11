@@ -412,8 +412,42 @@ if(!$_SERVER["QUERY_STRING"]){
 	<div class="page">
 
         <div class="header-container">
+            
+            
+            
+            <div class="top-links-mobile hidden-md hidden-sm hidden-lg">
 
-            <div class="top-links">
+                <div class="item-button ">
+                    <!--button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span><?php echo $text_header_menu;?></span>
+                    </button-->
+                    <div class="item-button">
+                        <a class="sprite  menu-mobile" data-toggle="collapse" data-target=".navbar-collapse" href="javascript:">menu</a>
+                    </div>
+
+                </div>
+                <div class="item-button ">
+                    <div class="item-button">
+                        <a class="sprite  search-mobile"  href="javascript:">search</a>
+                    </div>
+                </div>
+                <div class="item-button">
+                    <a class="sprite  home-mobile" title="SAINTS CLOTHES" href="<?php echo $home; ?>">SAINT CLOTHES</a>
+                </div>
+                <div class="item-button ">
+                   
+                        <a class="sprite  account-mobile"  href="javascript:">account</a>
+                   
+                </div>
+                <div class="item-button">
+                   
+                        <a class="sprite  cart-mobile" href="javascript:">cart</a>
+                  
+                </div>
+
+            </div>  
+
+            <div class="top-links hidden-xs">
 
                 <div class="container" style="padding:0px">
 
@@ -508,36 +542,32 @@ if(!$_SERVER["QUERY_STRING"]){
 
 
                         </div>
+                        
 
                     </div>
 
-                    
+                    <div class="social-icons hidden-xs" style="margin-top:7px">
 
-                         <div class="social-icons" style="margin-top:7px">
+                        <a class="sprite sprite-facebook" title="Facebook" href="https://www.facebook.com/saintsparaguay/">Facebook</a>
 
-                            <a class="sprite sprite-facebook" title="Facebook" href="https://www.facebook.com/saintsparaguay/">Facebook</a>
+                        <a class="sprite sprite-twitter" title="Twitter" href="https://twitter.com/saints_paraguay?lang=en">Twitter</a>
 
-                            <a class="sprite sprite-twitter" title="Twitter" href="https://twitter.com/saints_paraguay?lang=en">Twitter</a>
+                        <a class="sprite sprite-instragram" title="Instragram" href="https://www.instagram.com/saints_ve/">Instragram</a>
 
-                            <a class="sprite sprite-instragram" title="Instragram" href="https://www.instagram.com/saints_ve/">Instragram</a>
+                        <a class="sprite sprite-pinterest" title="Pinterest" href="https://es.pinterest.com/saintsclothes/">Pinterest</a>
 
-                            <a class="sprite sprite-pinterest" title="Pinterest" href="https://es.pinterest.com/saintsclothes/">Pinterest</a>
+                        <a class="sprite sprite-google" title="google" href="http://www.google.com/">google</a>
 
-                            <a class="sprite sprite-google" title="google" href="http://www.google.com/">google</a>
+                    </div>
 
-                                                                   
 
-                         </div>
-
-                  
-
-                     <div class="pull-right currency-switcher">
+                     <div class="pull-right hidden-xs currency-switcher">
 
                          <?php echo $currency; ?>
 
                     </div>
 
-                     <div class="pull-right language-switcher">
+                     <div class="pull-right hidden-xs language-switcher">
 
                         <?php echo $language; ?>
 
@@ -547,13 +577,7 @@ if(!$_SERVER["QUERY_STRING"]){
 
                         <li class="mini-cart last">
 
-                            
-
-                                        <?php echo $cart; ?>
-
-                                   
-
-                           
+                            <?php echo $cart; ?>
 
                          </li>
 
@@ -570,25 +594,13 @@ if(!$_SERVER["QUERY_STRING"]){
                                jQuery('#topCartContent').hide()
 
                              });
-
-							
-
-							  $(".mini-cart").click(function(){
+                                $(".mini-cart").click(function(){
 
                                 $("#topCartContent").toggle();
 
                             });
 
                             
-
-                         
-
-                                 
-
-                                     
-
-                             
-
                          </script>
 
                     </ul>
@@ -727,12 +739,6 @@ if(!$_SERVER["QUERY_STRING"]){
 
                 <div class="navbar-header  hidden-md hidden-lg hidden-sm">
 
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-
-                        <span><?php echo $text_header_menu;?></span>
-
-                    </button>
-
                     <a class="logo" href="<?php echo $home; ?>"><!--<?php echo $name; ?>-->
 
                         <!--img src="<?php echo $logo; ?>" alt="<?php echo $home; ?>" /-->
@@ -743,11 +749,11 @@ if(!$_SERVER["QUERY_STRING"]){
 
                 </div>
 
-        		<div class="for-mobile">
+        	<div class="for-mobile">
 
                     	
 
-                    </div>
+                </div>
 
         
 
