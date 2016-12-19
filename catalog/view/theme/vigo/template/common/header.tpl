@@ -556,7 +556,6 @@ if(!$_SERVER["QUERY_STRING"]){
 
                         <a class="sprite sprite-pinterest" title="Pinterest" href="https://es.pinterest.com/saintsclothes/">Pinterest</a>
 
-                        <a class="sprite sprite-google" title="google" href="http://www.google.com/">google</a>
 
                     </div>
 
@@ -625,19 +624,19 @@ if(!$_SERVER["QUERY_STRING"]){
 
                     <ul class="links right hidden-xs">
 
-                    	<div class="pull-left" style="color: white;display: -webkit-inline-box;">
+                        <div class="pull-left" style="color: white;display: -webkit-inline-box;">
 
-                    <?php if (!$logged) { ?>
+                            <?php if (!$logged) { ?>
 
-                    <?php echo $text_welcome; ?>
+                            <?php echo $text_welcome; ?>
 
-                    <?php } else { ?>
+                            <?php } else { ?>
 
-                    <?php echo $text_logged; ?>
+                            <?php echo $text_logged; ?>
 
-                    <?php } ?>
+                            <?php } ?>
 
-                    </div>
+                        </div>
 
                         <!--li class="first"><a class="top-link-home" href="<?php echo $home; ?>"><?php echo $text_home; ?></a></li-->
 
@@ -914,7 +913,17 @@ if(!$_SERVER["QUERY_STRING"]){
                         
 
                        	
+                            <div class="social-menu-mobile hidden-sm hidden-md hidden-lg">
+                                <a class="sprite sprite-facebook" title="Facebook" href="https://www.facebook.com/saintsparaguay/">Facebook</a>
 
+                                <a class="sprite sprite-twitter" title="Twitter" href="https://twitter.com/saints_paraguay?lang=en">Twitter</a>
+
+                                <a class="sprite sprite-instragram" title="Instragram" href="https://www.instagram.com/saints_ve/">Instragram</a>
+
+                                <a class="sprite sprite-pinterest" title="Pinterest" href="https://es.pinterest.com/saintsclothes/">Pinterest</a>
+
+                                <a class="sprite sprite-google" title="google" href="http://www.google.com/">google</a>
+                            </div>      
                              
 
                     </ul>

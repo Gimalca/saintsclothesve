@@ -1331,7 +1331,7 @@ tr.summary-details-excluded { font-style:italic; }
 
 .container > .navbar-header { margin: 0 auto;  }
 
-.container > .navbar-collapse { margin: 0 auto; border: 0; }
+.container > .navbar-collapse {/* margin: 0 auto; */border: 0;}
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus { background: transparent; }
 

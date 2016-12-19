@@ -152,9 +152,9 @@
 
     #nav a { float: none; }
 
-    .navbar-collapse.in { overflow-y:visible;}
+    .navbar-collapse.in {overflow-y:visible; top: 10px;}
 
-    .navbar-collapse { padding: 0 15px; }
+    .navbar-collapse { padding: 0 15px; top: 10px !important; }
 
 
 
@@ -434,15 +434,26 @@
 	.top-links-mobile .item-button a.home-mobile{background-position: -110px -256px;}
 	.top-links-mobile .item-button a.account-mobile{background-position: -167px -256px;}
 	.top-links-mobile .item-button a.cart-mobile{background-position: -229px -256px;}
-	    
-
+	
+	.social-menu-mobile {padding:5px}  
+    .social-menu-mobile  a {
+			display: inline-block;
+			width: 40px;
+			height: 30px;
+			text-indent: -9999px;
+			padding:2px;
+		}
+	.social-menu-mobile  a.sprite-facebook{background-position: -32px -344px;}	
+	.social-menu-mobile  a.sprite-twitter{background-position: -70px -344px;}
+	.social-menu-mobile  a.sprite-instragram{background-position: 9px -344px;}
+	.social-menu-mobile  a.sprite-pinterest{background-position: -115px -344px;}
     .navbar-collapse { position: absolute; border: 0; width: 100%; left: 0; top: 65px; z-index: 9999; }
 
     .navbar-nav {border: 0;position: static;margin: 0;border: 1px solid #eee;background: #fafafa;color: #000;}
 
     #nav_custom li { float: none; position: relative; }
 
-    #nav_custom a, #nav_custom a:hover { float: none; display: inline-block; }
+    #nav_custom a, #nav_custom a:hover {float: none;display: inline-block;}
 
     #nav_custom li.level0 { padding: 0; border-bottom: 1px solid #eee; }
 
@@ -456,7 +467,7 @@
 
     #nav_custom li.level0 ul { display: none; }
 
-    #nav_custom span.plus { display: block; position: absolute; right: 14px; top: 16px; width: 24px; height: 24px; background: url(../images/plus_icon.png) 0 0 no-repeat; border: 2px solid transparent; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; transition: border-color 200ms ease-in-out; -moz-transition: border-color 200ms ease-in-out; -webkit-transition: border-color 200ms ease-in-out; -o-transition: border-color 200ms ease-in-out; }
+    #nav_custom span.plus {/* display: block; */position: absolute;right: 14px;top: 16px;width: 24px;height: 24px;background: url(../images/plus_icon.png) 0 0 no-repeat;border: 2px solid transparent;border-radius: 2px;-webkit-border-radius: 2px;-moz-border-radius: 2px;transition: border-color 200ms ease-in-out;-moz-transition: border-color 200ms ease-in-out;-webkit-transition: border-color 200ms ease-in-out;-o-transition: border-color 200ms ease-in-out;}
 
     #nav_custom span.plus.expanded { background-position: 0 -20px; }
 
@@ -481,7 +492,7 @@
     /* ++ */
 
     #nav_custom li.level0 {max-height: 100%;color: #000;}
-    #nav_custom span{ color: #000}
+    #nav_custom span{color: #000;font-weight: normal;}
 
     #nav_custom ul.level1{ margin-left:2px;background-color:#eee; background-image:none;max-width: 100%;}
 
@@ -497,9 +508,9 @@
     
     
     
-    .navbar.sticky-menu{ top: 48px !important; background-color: #fff;background-image:none; z-index: 100; height: 50px;position: fixed;} 
+    .navbar.sticky-menu{top: 0px !important;background-color: #fff;background-image:none;z-index: 100;height: 50px;position: fixed;} 
     .navbarhome {top: 48px !important;}
-    .navbarhome.sticky-menu{top: 48px !important;}
+    .navbarhome.sticky-menu{/* top: 48px !important; */}
     .navbar.sticky-menu span{color:#000 !important}
 
     .main-container {margin-top: 106px !important;}
