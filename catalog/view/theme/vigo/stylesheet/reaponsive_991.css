@@ -8,10 +8,10 @@
     a.top-link-account { background-position: 10px -13px; }
     a.top-link-cart { background-position: 10px -31px; }
     a.top-link-checkout { background-position: 10px -46px; }
-    .header-container .top-links ul.right-links li a { font-size: 13px; padding: 0 15px 0 35px; }
+    .header-container .top-links ul.right-links li a {/* font-size: 13px; *//* padding: 0 15px 0 35px; */}
     a.wishlist-link { background-position: 13px 0px; }
     a.mybag-link { background-position: 13px -20px; }
-    li.mini-cart #topCartContent { top: 39px; }
+    li.mini-cart #topCartContent {/* top: 39px; */}
     #nav li { margin: 0 15px; }
     .col1-layout .products-grid li.item:nth-child(3n){
         margin-right: 0;
@@ -60,7 +60,7 @@
     .col2-set > div:first-child { padding-right: 0; }
     
     .for-tablet { display: block; }
-    .for-not-tablet { display: none; }
+    .for-not-tablet {/* display: none; */}
     
     .for-tablet button.button.btn-search-flg span { border-left-color: #eee; }
     .block .block-title strong { font-size: 25px; }
@@ -168,9 +168,9 @@
 
 
 
-    .heading .mini-products-list .product-details {margin-left: 166px!important;color: #fff;}
+    .heading .mini-products-list .product-details {/* margin-left: 166px!important; */color: #fff;}
 
-    .mini-products-list .product-details a.btn-remove2 {  background-position: 35px;}
+    .mini-products-list .product-details a.btn-remove2 {background-position: 5px;}
 
 
 

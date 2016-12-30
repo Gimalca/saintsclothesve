@@ -428,7 +428,7 @@ if(!$_SERVER["QUERY_STRING"]){
                 </div>
                 <div class="item-button ">
                     <div class="item-button">
-                        <a class="sprite  search-mobile"  href="javascript:">search</a>
+                        <a class="sprite  search-mobile" data-toggle="collapse" data-target=".form-search" href="javascript:">search</a>
                     </div>
                 </div>
                 <div class="item-button">
@@ -442,18 +442,52 @@ if(!$_SERVER["QUERY_STRING"]){
                 <div class="item-button">
                    
                         <a class="sprite  cart-mobile" href="javascript:">cart</a>
-                  
+
                 </div>
+                
+                 <script type="text/javascript">
+
+                             
+                            
+                            $(".cart-mobile").click(function(){
+                                $(".navbar-collapse").removeClass('in');
+                                $(".navbar-collapse").addClass('collapse');
+                                
+                                $(".form-search").removeClass('in');
+                                $(".form-search").addClass('collapse');
+                                
+                            });
+                            
+                            $(".menu-mobile").click(function(){
+                                $("#topCartContent").hide();
+                                
+                                $(".form-search").removeClass('in');
+                                $(".form-search").addClass('collapse');
+                                
+                            });
+                            
+                            $(".search-mobile").click(function(){
+                                $("#topCartContent").hide();
+                                
+                                $(".navbar-collapse").removeClass('in');
+                                $(".navbar-collapse").addClass('collapse');
+                                
+                            });
+
+                            
+                         </script>
 
             </div>  
 
-            <div class="top-links hidden-xs">
+           
+
+            <div class="top-links ">
 
                 <div class="container" style="padding:0px">
 
                     
 
-                    <div class="for-desktop">
+                    <div class="for-desktop ">
 
                         <div class="form-search for-not-tablet">
 
@@ -465,17 +499,17 @@ if(!$_SERVER["QUERY_STRING"]){
 
 
 
-                                <!--button class="button-search button btn-search" title="Search" type="submit">
+                                <button class="button-search button btn-search hidden-md hidden-sm hidden-lg" title="Search" type="submit">
 
                                 <span>
 
-                                        
+                                         
 
-                                    <span><?php echo $text_search;?></span>
+                                    <span>Buscar</span>
 
                                 </span>
 
-                                </button-->
+                                </button>
 
                             </form>
 
@@ -535,12 +569,6 @@ if(!$_SERVER["QUERY_STRING"]){
 
                             </script>
 
-
-
-
-
-
-
                         </div>
                         
 
@@ -575,7 +603,7 @@ if(!$_SERVER["QUERY_STRING"]){
                     <ul class="right-links pull-right">
 
                         <li class="mini-cart last">
-
+                           
                             <?php echo $cart; ?>
 
                          </li>
@@ -592,9 +620,10 @@ if(!$_SERVER["QUERY_STRING"]){
 
                                jQuery('#topCartContent').hide()
 
-                             });
-                                $(".mini-cart").click(function(){
-
+                             }); 
+                            
+                            $(".cart-mobile").click(function(){
+ 
                                 $("#topCartContent").toggle();
 
                             });
@@ -605,15 +634,11 @@ if(!$_SERVER["QUERY_STRING"]){
                     </ul>
 
                     <ul>
-
-                     
-
                     <!--div class="pull-right language-switcher">
 
                         <?php echo $language; ?>
 
                     </div-->
-
                     <div class="pull-right currency-switcher" style="display:none">
 
                          <?php echo $currency; ?>
@@ -621,7 +646,6 @@ if(!$_SERVER["QUERY_STRING"]){
                     </div>     
 
                     </ul>
-
                     <ul class="links right hidden-xs">
 
                         <div class="pull-left" style="color: white;display: -webkit-inline-box;">
@@ -637,14 +661,11 @@ if(!$_SERVER["QUERY_STRING"]){
                             <?php } ?>
 
                         </div>
-
                         <!--li class="first"><a class="top-link-home" href="<?php echo $home; ?>"><?php echo $text_home; ?></a></li-->
 
                         <!--li class="header_wishlist"><a href="<?php echo $wishlist; ?>" class="top-link-wishlist"><?php //echo $text_wishlist; ?></a></li-->
 
                         <!--li><a class="top-link-account" href="<?php echo $account; ?>"><?php //echo $text_account; ?></a></li-->
-
-                        
 
                         <!--li><a class="top-link-cart" href="<?php echo $shopping_cart; ?>"><?php echo $text_shopping_cart; ?></a></li-->
 
@@ -657,22 +678,11 @@ if(!$_SERVER["QUERY_STRING"]){
                         <!--li class="last header_compare">
 
                             <a href="<?php echo $compare; ?>" class="top-link-compare"><?php echo $text_compare; ?></a></li-->
-
-                    
-
                     </ul>
 
                     <div class="clear"></div>
-
-                     
-
                 </div>
-
             </div>
-
-            
-
-          
 
         </div>
 
