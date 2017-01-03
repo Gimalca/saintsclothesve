@@ -60,7 +60,7 @@
     .col2-set > div:first-child { padding-right: 0; }
     
     .for-tablet { display: block; }
-    .for-not-tablet {/* display: none; */}
+    .for-not-tablet {display: none;}
     
     .for-tablet button.button.btn-search-flg span { border-left-color: #eee; }
     .block .block-title strong { font-size: 25px; }
@@ -139,7 +139,7 @@
     
     
     
-    .navbar.sticky-menu{/* top: 48px !important; */background-color: #fff;background-image:none;z-index: 100;height: 50px;position: fixed;} 
+    .navbar.sticky-menu{ /* top: 48px !important; */background-color: #fff;background-image:none;z-index: 5000;height: 50px;position: fixed;} 
     .navbarhome {top: 48px !important;}
     .navbarhome.sticky-menu{/* top: 48px !important; */}
     .navbar.sticky-menu span{color: #000 !important;}
@@ -154,8 +154,6 @@
     .product-image-area .hover-area2 { display:none !important}
 
     .product-image-area .hover-area { display:none !important}
-
-
 
     .sorter .view-mode, .sorter .limiter{float:none !important;}
 

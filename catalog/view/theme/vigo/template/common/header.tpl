@@ -599,6 +599,19 @@ if(!$_SERVER["QUERY_STRING"]){
                         <?php echo $language; ?>
 
                     </div>
+                     <div class="pull-right hidden-xs login-switcher" style="color: white;display: -webkit-inline-box;">
+
+                            <?php if (!$logged) { ?>
+
+                            <?php echo $text_welcome; ?>
+
+                            <?php } else { ?>
+
+                            <?php echo $text_logged; ?>
+
+                            <?php } ?>
+
+                        </div>                                        
 
                     <ul class="right-links pull-right">
 
@@ -646,21 +659,8 @@ if(!$_SERVER["QUERY_STRING"]){
                     </div>     
 
                     </ul>
-                    <ul class="links right hidden-xs">
+                    <!--ul class="links right hidden-xs"-->
 
-                        <div class="pull-left" style="color: white;display: -webkit-inline-box;">
-
-                            <?php if (!$logged) { ?>
-
-                            <?php echo $text_welcome; ?>
-
-                            <?php } else { ?>
-
-                            <?php echo $text_logged; ?>
-
-                            <?php } ?>
-
-                        </div>
                         <!--li class="first"><a class="top-link-home" href="<?php echo $home; ?>"><?php echo $text_home; ?></a></li-->
 
                         <!--li class="header_wishlist"><a href="<?php echo $wishlist; ?>" class="top-link-wishlist"><?php //echo $text_wishlist; ?></a></li-->
@@ -678,7 +678,7 @@ if(!$_SERVER["QUERY_STRING"]){
                         <!--li class="last header_compare">
 
                             <a href="<?php echo $compare; ?>" class="top-link-compare"><?php echo $text_compare; ?></a></li-->
-                    </ul>
+                    <!--/ul-->
 
                     <div class="clear"></div>
                 </div>

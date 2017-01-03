@@ -54,7 +54,7 @@ button.button span {
 .header-container .top-links a { color: #cccccc; }
 .header-container .top-links a:hover { color: #e5e5e5; }
 
-.footer-container {  background-color: #2a2a2a; color: #777777; }
+.footer-container {  background-color: #000; color: #777777; }
 .footer a { color: #999999; }
 .footer a:hover { color: #cccccc; }
 .footer button.button span, .footer a.btn-like { 

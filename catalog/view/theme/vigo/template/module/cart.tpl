@@ -1,5 +1,5 @@
 <a href="javascript:void(0)" class="mybag-link"><?php echo $text_items; ?></a>
-<div id="topCartContent" class="block-content">
+<div-- id="topCartContent" class="block-content">
     <div class="inner-wrapper">
         <div id="cart">
             <div class="heading">
@@ -17,7 +17,7 @@
                        
                         <div class="product-details">
                             <p class="product-name">
-                                <a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a>
+                                <a class="cortar" href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a>
                             </p>
                             <div class="cart-option hidden-sm hidden-md hidden-lg">
                                 <?php foreach ($product['option'] as $option) { ?>
@@ -95,7 +95,7 @@
         </div>
 
     </div>
-    <div class="metod-pay hidden-md hidden-sm hidden-lg">
+    <!--div class="metod-pay hidden-md hidden-sm hidden-lg">
         <img src="image/payment-cart.jpg">
-    </div>
+    </div-->
 </div>
